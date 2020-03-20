@@ -1,4 +1,4 @@
-# **Piwi at discord**
+# Optimiser son PC.
 Il existe énormément de tweaks, optimisations, tutoriels, scripts et logiciels sur internet qui vont vous promettre de doubler vos FPS, réduire votre latence, stabiliser vos FPS, et je ne sais quoi d'autre. La majorité de ces tweaks sont faux, plus à jour, n'améliorent rien, et risquent de vous forcer à réinstaller windows en cas d'erreur (et des fois même si vous avez tout suivi correctement), voire même d'endommager votre PC.
 Les simples tweaks que je vais détailler ici vont garantir un pc qui sera sain, et vous aurez fait 99% du chemin concernant l'optimisation de votre PC, sans danger pour le PC, et avec tout qui fonctionnera.
 
@@ -31,11 +31,33 @@ Pour installer Windows, je vous propose la vidéo de Topachat, qui est complète
 La seule chose que j'ajouterai, c'est que je vous suggère de **débrancher le câble Ethernet (ou la carte wifi) pendant l'installation de Windows.** En effet, Windows par défault installe des drivers pour votre matériel, pendant l'installation de Windows. Je considère ça comme pas idéal, parce que la première chose qu'un va faire après l'install, c'est de mettre à jour nos drivers, alors autant s'épargner l'installation d'anciennes versions de drivers par Windows.
 On pourra rebrancher le câble ethernet uniquement **après avoir désactivé l'installation automatique des drivers**
 
-## Désactivation des drivers automatiques
+## Désactivation des drivers automatiques & Tweaks Regedit
 
 Une fois que Windows sera installé, on se retrouve sur le bureau (avec une résolution très faible, ce qui est normal, la résolution normale viendra quand on aura installé les drivers de la carte graphique).
 La première chose qu'on va faire, c'est désactiver l'installation automatique des drivers de Windows. Pour ce faire, je vous propose de suivre la vidéo suivante : 
-*[`https://www.youtube.com/watch?v=IMmNS6yAK4g`](https://www.youtube.com/watch?v=IMmNS6yAK4g)*
+[**https://www.youtube.com/watch?v=IMmNS6yAK4g**](https://www.youtube.com/watch?v=IMmNS6yAK4g)
 
 Si vous n'avez pas envie de regarder la vidéo, la commande à rentrer dans CMD (en admin) est la suivante (ceci dit, je vous conseille quand même la vidéo, qui vous donnera plus d'explications, et de contexte)
+
 `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\DriverSearching" /v SearchOrderConfig /t REG_DWORD /d 00000000 /f`
+
+Tant qu'on est à faire des changements dans regedit, je vous propose quelques petits tweaks basiques, qui vont légèrement améliorer les performances de votre PC, mais sans aucun problème de compatibilité, ou risque pour votre PC. La vidéo qui vous donnera des explications et du contexte est la suivante (recommandée).
+
+[**https://www.youtube.com/watch?v=X4AVdnHFn_E**](https://www.youtube.com/watch?v=X4AVdnHFn_E)
+
+Et la liste des tweaks proposés (à rentrer dans CMD en admin, encore une fois)
+
+`REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v AllowCortana /t REG_DWORD /d 00000000 /f`
+
+`REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power" /v HiberbootEnabled /t REG_DWORD /d 00000000 /f`
+
+`REG ADD "HKCU\Keyboard Layout\toggle" /v "Language Hotkey" /t REG_SZ /d 3 /f`
+
+`REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v DisallowShaking /t REG_DWORD /d 00000001 /f
+powercfg -h off`
+
+`fsutil behavior set DisableDeleteNotify 0`
+
+`REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile" /v SystemResponsiveness /t REG_DWORD /d 00000010 /f`
+
+Une fois les drivers de Windows désactivés, vous devez impérativement **redémarrer le PC**. Une fois que c'est fait, vous pouvez *rebrancher internet*
