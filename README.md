@@ -63,3 +63,22 @@ powercfg -h off`
 `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile" /v SystemResponsiveness /t REG_DWORD /d 00000010 /f`
 
 Une fois les drivers de Windows désactivés, vous devez impérativement **redémarrer le PC**. Une fois que c'est fait, vous pouvez **rebrancher internet**
+
+## Installation du driver vidéo
+On va maintenant installer le driver vidéo de votre carte graphique. Pour ça, plusieurs méthodes selon vos besoins : 
+
+**Carte AMD :**
+Le pilote à télécharger sera disponible sur `https://www.amd.com/fr/support`. Il suffit de choisir la bonne CG, de le télécharger, et de l'installer.
+
+**Carte NVIDIA :**
+Méthode 1 (à utiliser si vous avez besoin de Shadowplay, ou d'utiliser les hauts parleurs de votre écran, ou de Geforce experience, etc) : Le pilote à télécharger sera disponible sur `https://www.nvidia.fr/Download/Find.aspx?lang=fr` (sélectionner la version **STANDARD** -> faire la recherche -> télécharger le driver **Game Ready** le plus récent)
+- Méthode 2 (à utiliser si vous souhiatez une version "lite" des drivers, qui n'a pas geforce experience, shadowplay, etc) : utiliser * [`NVCleanInstall`](https://www.techpowerup.com/download/techpowerup-nvcleanstall/)* pour installer votre driver.
+
+Je discute des avantages et des inconvénients de NVCleanInstall dans cette vidéo (que je vous conseille encore une fois de regarder pour du contexte et des informations supplémentaires) : 
+
+[`Optimisation CG Nvidia @11:34`]https://www.youtube.com/watch?v=eydeMfLlIsA&feature=youtu.be&t=694
+
+Une fois le driver vidéo installé, on aura (enfin) notre résolution choisie
+
+## Installation des drivers
+L'étape suivante consiste à installer les autres pilotes de votre système.
