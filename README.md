@@ -37,7 +37,7 @@ On pourra rebrancher le câble ethernet uniquement **après avoir désactivé l'
 Une fois que Windows sera installé, on se retrouve sur le bureau (avec une résolution très faible, ce qui est normal, la résolution normale viendra quand on aura installé les drivers de la carte graphique).
 La première chose qu'on va faire, c'est désactiver l'installation automatique des drivers de Windows. Pour ce faire, je vous propose de suivre la vidéo suivante : 
 
-[**https://www.youtube.com/watch?v=IMmNS6yAK4g**](https://www.youtube.com/watch?v=IMmNS6yAK4g)
+[`**https://www.youtube.com/watch?v=IMmNS6yAK4g**`](https://www.youtube.com/watch?v=IMmNS6yAK4g)
 
 Si vous n'avez pas envie de regarder la vidéo, la commande à rentrer dans CMD (en admin) est la suivante (ceci dit, je vous conseille quand même la vidéo, qui vous donnera plus d'explications, et de contexte)
 
