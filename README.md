@@ -72,18 +72,18 @@ Le pilote à télécharger sera disponible sur `https://www.amd.com/fr/support`.
 
 **Carte NVIDIA :**
 Méthode 1 (à utiliser si vous avez besoin de Shadowplay, ou d'utiliser les hauts parleurs de votre écran, ou de Geforce experience, etc) : Le pilote à télécharger sera disponible sur `https://www.nvidia.fr/Download/Find.aspx?lang=fr` (sélectionner la version **STANDARD** -> faire la recherche -> télécharger le driver **Game Ready** le plus récent)
-- Méthode 2 (à utiliser si vous souhiatez une version "lite" des drivers, qui n'a pas geforce experience, shadowplay, etc) : utiliser * [`NVCleanInstall`](https://www.techpowerup.com/download/techpowerup-nvcleanstall/)* pour installer votre driver.
+- Méthode 2 (à utiliser si vous souhiatez une version "lite" des drivers, qui n'a pas geforce experience, shadowplay, etc) : utiliser  [`NVCleanInstall`](https://www.techpowerup.com/download/techpowerup-nvcleanstall/) pour installer votre driver.
 
 Je discute des avantages et des inconvénients de NVCleanInstall dans cette vidéo (que je vous conseille encore une fois de regarder pour du contexte et des informations supplémentaires) : 
 
-[`Optimisation CG Nvidia @11:34`]https://www.youtube.com/watch?v=eydeMfLlIsA&feature=youtu.be&t=694
+[`Optimisation CG Nvidia @11:34`](https://www.youtube.com/watch?v=eydeMfLlIsA&feature=youtu.be&t=694)
 
 Une fois le driver vidéo installé, on aura (enfin) notre résolution normale.
 
 ## Installation des drivers
 L'étape suivante consiste à installer les autres pilotes de votre système. La vidéo explicative est la suivante :
 
-[`Installer ses drivers de la bonne façon`]https://www.youtube.com/watch?v=TzSJ_DTLfqY
+[`Installer ses drivers de la bonne façon`](https://www.youtube.com/watch?v=TzSJ_DTLfqY)
 
 Le résumé, c'est qu'utiliser des outils comme driverscloud, driverbooster, touslesdrivers, etc, c'est pas la meilleure façon d'installer vos drivers, et ça peut créer des soucis. Le site de la carte mère, et le site de la carte graphique sont les meilleurs endroits. Pour plus de détails, je vous renvoie à la vidéo.
 
@@ -96,7 +96,7 @@ Il suffit d'aller dans les options de windows, cliquer sur windows update, et fa
 
 Cette étape consiste simplement à se promener dans tous les paramètres de Windows, et lire et décocher ce qui ne vous semble pas utile. Pour vous aider, je peux vous proposer la vidéo suivante, qui va vous expliquer la majorité des paramètres que vous trouverez : 
 
-[`Paramètres Windows`]https://www.youtube.com/watch?v=DP0e0xTk0Ck
+[`Paramètres Windows`](https://www.youtube.com/watch?v=DP0e0xTk0Ck)
 
 ## W10Privacy
 
@@ -104,13 +104,13 @@ W10privacy est le logiciel que j'utilise pour régler certains paramètres pas d
 Vidéo explicative ici (conseillée) : 
 
 
-[`W10Privacy (et autres logiciels de "vie privée")`]https://www.youtube.com/watch?v=oPUJThkVmXI
+[`W10Privacy (et autres logiciels de "vie privée")`](https://www.youtube.com/watch?v=oPUJThkVmXI)
 
 ## Réglages du panneau Nvidia
 
 Ensuite, je vous propose de faire un tour du panneau Nvidia, et d'activer et de désactiver certaines choses. Si vous avez une carte AMD, je peux pas vous aider, et je crois pas connaître de bon tuto pour. Profitez-en pour faire des expériences.
 
-[`Paramètres du panneau Nvidia`]https://youtu.be/Z9pkHJGm004
+[`Paramètres du panneau Nvidia`](https://youtu.be/Z9pkHJGm004)
 
 ## MSI Afterburner
 Msi Afterburner est un logiciel très léger et puissant, qui va vous permettre de :
@@ -118,21 +118,21 @@ Msi Afterburner est un logiciel très léger et puissant, qui va vous permettre 
 - regarder en temps réel l'utilisation de votre CG, sa température, ainsi que l'utilisation et températures de votre processeur, et du reste du PC.
 - overclock votre CG (sujet que je traiterai pas, car trop long et source de potentielle instabilité)
 
-[`Utiliser MSI Afterburner`]https://youtu.be/eydeMfLlIsA?t=1
+[`Utiliser MSI Afterburner`](https://youtu.be/eydeMfLlIsA?t=1)
 
 ## Mode MSI
 L'explication et l'utilité du mode MSI se trouvent dans la vidéo suivante : 
 
-[`MSI Mode`]https://youtu.be/eydeMfLlIsA?t=502
+[`MSI Mode`](https://youtu.be/eydeMfLlIsA?t=502)
 
 Si vous souhaitez des informations complémentaires sur le mode MSI (pour la culture générale), cette explication est très bien : https://forum.malekal.com/viewtopic.php?t=62058
 
 ## ISLC : Intelligent Standby List Cleaner
 Comme MSI Afterburner, j'utilise ISLC sur tous mes ordinateurs, pour sa légèreté, et les deux fonctionnalités utiles qu'il propose : 
 
-[`ISLC`]https://youtu.be/QV8IojCtoOQ
+[`ISLC`](https://youtu.be/QV8IojCtoOQ)
 
 ## Mode de gestion d'alimentation
 Pour finir, un des réglages les plus importants que vous pouvez faire à votre système, c'est de changer son mode d'alimentation pour le passer en "hautes performances". Une vidéo explicative si vous en avez besoin est disponible ici : 
 
-[`Mode de gestion d'alimentation`]https://youtu.be/SAlqNxr1eVY
+[`Mode de gestion d'alimentation`](https://youtu.be/SAlqNxr1eVY)
