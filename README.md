@@ -38,7 +38,7 @@ On pourra rebrancher le câble ethernet uniquement **après avoir désactivé l'
 Une fois que Windows sera installé, on se retrouve sur le bureau (avec une résolution très faible, ce qui est normal, la résolution normale viendra quand on aura installé les drivers de la carte graphique).
 La première chose qu'on va faire, c'est désactiver l'installation automatique des drivers de Windows. Pour ce faire, je vous propose de suivre la vidéo suivante : 
 
-[`https://www.youtube.com/watch?v=IMmNS6yAK4g`](https://www.youtube.com/watch?v=IMmNS6yAK4g)
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [`https://www.youtube.com/watch?v=IMmNS6yAK4g`](https://www.youtube.com/watch?v=IMmNS6yAK4g)
 
 Si vous n'avez pas envie de regarder la vidéo, la commande à rentrer dans CMD (en admin) est la suivante (ceci dit, je vous conseille quand même la vidéo, qui vous donnera plus d'explications, et de contexte)
 
@@ -46,7 +46,7 @@ Si vous n'avez pas envie de regarder la vidéo, la commande à rentrer dans CMD 
 
 Tant qu'on est à faire des changements dans regedit, je vous propose quelques petits tweaks basiques, qui vont légèrement améliorer les performances de votre PC, mais sans aucun problème de compatibilité, ou risque pour votre PC. La vidéo qui vous donnera des explications et du contexte est la suivante (recommandée).
 
-[`https://www.youtube.com/watch?v=X4AVdnHFn_E`](https://www.youtube.com/watch?v=X4AVdnHFn_E)
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [`https://www.youtube.com/watch?v=X4AVdnHFn_E`](https://www.youtube.com/watch?v=X4AVdnHFn_E)
 
 Et la liste des tweaks proposés (à rentrer dans CMD en admin, encore une fois)
 
@@ -77,14 +77,14 @@ Méthode 1 (à utiliser si vous avez besoin de Shadowplay, ou d'utiliser les hau
 
 Je discute des avantages et des inconvénients de NVCleanInstall dans cette vidéo (que je vous conseille encore une fois de regarder pour du contexte et des informations supplémentaires) : 
 
-[`Optimisation CG Nvidia @11:34`](https://www.youtube.com/watch?v=eydeMfLlIsA&feature=youtu.be&t=694)
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [`Optimisation CG Nvidia @11:34`](https://www.youtube.com/watch?v=eydeMfLlIsA&feature=youtu.be&t=694)
 
 Une fois le driver vidéo installé, on aura (enfin) notre résolution normale.
 
 ## Installation des drivers
 L'étape suivante consiste à installer les autres pilotes de votre système. La vidéo explicative est la suivante :
 
-[`Installer ses drivers de la bonne façon`](https://www.youtube.com/watch?v=TzSJ_DTLfqY)
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [`Installer ses drivers de la bonne façon`](https://www.youtube.com/watch?v=TzSJ_DTLfqY)
 
 Le résumé, c'est qu'utiliser des outils comme driverscloud, driverbooster, touslesdrivers, etc, c'est pas la meilleure façon d'installer vos drivers, et ça peut créer des soucis. Le site de la carte mère, et le site de la carte graphique sont les meilleurs endroits. Pour plus de détails, je vous renvoie à la vidéo.
 
@@ -97,7 +97,7 @@ Il suffit d'aller dans les options de windows, cliquer sur windows update, et fa
 
 Cette étape consiste simplement à se promener dans tous les paramètres de Windows, et lire et décocher ce qui ne vous semble pas utile. Pour vous aider, je peux vous proposer la vidéo suivante, qui va vous expliquer la majorité des paramètres que vous trouverez : 
 
-[`Paramètres Windows`](https://www.youtube.com/watch?v=DP0e0xTk0Ck)
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [`Paramètres Windows`](https://www.youtube.com/watch?v=DP0e0xTk0Ck)
 
 ## W10Privacy
 
@@ -105,13 +105,13 @@ W10privacy est le logiciel que j'utilise pour régler certains paramètres pas d
 Vidéo explicative ici (conseillée) : 
 
 
-[`W10Privacy (et autres logiciels de "vie privée")`](https://www.youtube.com/watch?v=oPUJThkVmXI)
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [`W10Privacy (et autres logiciels de "vie privée")`](https://www.youtube.com/watch?v=oPUJThkVmXI)
 
 ## Réglages du panneau Nvidia
 
 Ensuite, je vous propose de faire un tour du panneau Nvidia, et d'activer et de désactiver certaines choses. Si vous avez une carte AMD, je peux pas vous aider, et je crois pas connaître de bon tuto pour. Profitez-en pour faire des expériences.
 
-[`Paramètres du panneau Nvidia`](https://youtu.be/Z9pkHJGm004)
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [`Paramètres du panneau Nvidia`](https://youtu.be/Z9pkHJGm004)
 
 ## MSI Afterburner
 Msi Afterburner est un logiciel très léger et puissant, qui va vous permettre de :
@@ -119,21 +119,21 @@ Msi Afterburner est un logiciel très léger et puissant, qui va vous permettre 
 - regarder en temps réel l'utilisation de votre CG, sa température, ainsi que l'utilisation et températures de votre processeur, et du reste du PC.
 - overclock votre CG (sujet que je traiterai pas, car trop long et source de potentielle instabilité)
 
-[`Utiliser MSI Afterburner`](https://youtu.be/eydeMfLlIsA?t=1)
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [`Utiliser MSI Afterburner`](https://youtu.be/eydeMfLlIsA?t=1)
 
 ## Mode MSI
 L'explication et l'utilité du mode MSI se trouvent dans la vidéo suivante : 
 
-[`MSI Mode`](https://youtu.be/eydeMfLlIsA?t=502)
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [`MSI Mode`](https://youtu.be/eydeMfLlIsA?t=502)
 
 Si vous souhaitez des informations complémentaires sur le mode MSI (pour la culture générale), cette explication est très bien : https://forum.malekal.com/viewtopic.php?t=62058
 
 ## ISLC : Intelligent Standby List Cleaner
 Comme MSI Afterburner, j'utilise ISLC sur tous mes ordinateurs, pour sa légèreté, et les deux fonctionnalités utiles qu'il propose : 
 
-[`ISLC`](https://youtu.be/QV8IojCtoOQ)
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [`ISLC`](https://youtu.be/QV8IojCtoOQ)
 
 ## Mode de gestion d'alimentation
 Pour finir, un des réglages les plus importants que vous pouvez faire à votre système, c'est de changer son mode d'alimentation pour le passer en "hautes performances". Une vidéo explicative si vous en avez besoin est disponible ici : 
 
-[`Mode de gestion d'alimentation`](https://youtu.be/SAlqNxr1eVY)
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [`Mode de gestion d'alimentation`](https://youtu.be/SAlqNxr1eVY)
