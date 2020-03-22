@@ -20,8 +20,8 @@ Voici ce que je vous conseille sur une nouvelle installation de windows. Ce sont
  - [**Réglages du panneau Nvidia**](#Réglages-du-panneau-Nvidia)
  - [**MSI Afterburner**](#MSI-Afterburner)
  - [**Mode MSI**](#Mode-MSI)
- - [**ISLC : Intelligent Standby List Cleaner**](#ISLC-:-Intelligent-Standby-List-Cleaner)
- - [**Mode de gestion d'alimentation**](#Mode-de-gestion-d'alimentation)
+ - [**ISLC Intelligent Standby List Cleaner**](#ISLC-Intelligent-Standby-List-Cleaner)
+ - [**Mode de gestion d'alimentation**](#Mode-de-gestion-dalimentation)
 ## Installation de Windows
 
 **Note:** Je recommande de réinstaller Windows, afin de repartir sur une base saine. Qui sait ce que vous avez installé sur votre PC, quels tweaks (utiles ou non) vous avez pu installer, quels logiciels inutiles ou virus vous pouvez avoir sur votre PC, etc etc. Réinstaller complètement Windows permettra de raptir complètement d'une base sain, et d'assurer des performances et une compatibilité maximale.
@@ -128,7 +128,7 @@ L'explication et l'utilité du mode MSI se trouvent dans la vidéo suivante :
 
 Si vous souhaitez des informations complémentaires sur le mode MSI (pour la culture générale), cette explication est très bien : https://forum.malekal.com/viewtopic.php?t=62058
 
-## ISLC : Intelligent Standby List Cleaner
+## ISLC Intelligent Standby List Cleaner
 Comme MSI Afterburner, j'utilise ISLC sur tous mes ordinateurs, pour sa légèreté, et les deux fonctionnalités utiles qu'il propose : 
 
 ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [`ISLC`](https://youtu.be/QV8IojCtoOQ)
