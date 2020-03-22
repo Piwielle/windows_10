@@ -24,11 +24,11 @@ Voici ce que je vous conseille sur une nouvelle installation de windows. Ce sont
  - [**Mode de gestion d'alimentation**](#Mode-de-gestion-dalimentation)
 ## Installation de Windows
 
-**Note:** Je recommande de réinstaller Windows, afin de repartir sur une base saine. Qui sait ce que vous avez installé sur votre PC, quels tweaks (utiles ou non) vous avez pu installer, quels logiciels inutiles ou virus vous pouvez avoir sur votre PC, etc etc. Réinstaller complètement Windows permettra de raptir complètement d'une base sain, et d'assurer des performances et une compatibilité maximale.
+**Note:** Je recommande de réinstaller Windows, afin de repartir sur une base saine. Qui sait ce que vous avez installé sur votre PC, quels tweaks (utiles ou non) vous avez pu installer, quels logiciels inutiles ou virus vous pouvez avoir sur votre PC, etc etc. Réinstaller complètement Windows permettra de repartir complètement d'une base saine, et d'assurer des performances et une compatibilité maximale.
 
 Pour installer Windows, je vous propose la vidéo de Topachat, qui est complète et couvre bien le sujet. 
 
-![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [`https://www.youtube.com/watch?v=uHOP4UbEGug`](https://www.youtube.com/watch?v=uHOP4UbEGug)
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [`[TUTO] Installer Windows 10 & Tes Drivers - TopAchat [FR]`](https://www.youtube.com/watch?v=uHOP4UbEGug)
 
 La seule chose que j'ajouterai, c'est que je vous suggère de **débrancher le câble Ethernet (ou la carte wifi) pendant l'installation de Windows.** En effet, Windows par défault installe des drivers pour votre matériel, pendant l'installation de Windows. Je considère ça comme pas idéal, parce que la première chose qu'un va faire après l'install, c'est de mettre à jour nos drivers, alors autant s'épargner l'installation d'anciennes versions de drivers par Windows.
 On pourra rebrancher le câble ethernet uniquement **après avoir désactivé l'installation automatique des drivers**
@@ -38,7 +38,7 @@ On pourra rebrancher le câble ethernet uniquement **après avoir désactivé l'
 Une fois que Windows sera installé, on se retrouve sur le bureau (avec une résolution très faible, ce qui est normal, la résolution normale viendra quand on aura installé les drivers de la carte graphique).
 La première chose qu'on va faire, c'est désactiver l'installation automatique des drivers de Windows. Pour ce faire, je vous propose de suivre la vidéo suivante : 
 
-![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [`https://www.youtube.com/watch?v=IMmNS6yAK4g`](https://www.youtube.com/watch?v=IMmNS6yAK4g)
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [`Désactiver l'installation automatique des drivers de Windows Update`](https://www.youtube.com/watch?v=IMmNS6yAK4g)
 
 Si vous n'avez pas envie de regarder la vidéo, la commande à rentrer dans CMD (en admin) est la suivante (ceci dit, je vous conseille quand même la vidéo, qui vous donnera plus d'explications, et de contexte)
 
@@ -46,7 +46,7 @@ Si vous n'avez pas envie de regarder la vidéo, la commande à rentrer dans CMD 
 
 Tant qu'on est à faire des changements dans regedit, je vous propose quelques petits tweaks basiques, qui vont légèrement améliorer les performances de votre PC, mais sans aucun problème de compatibilité, ou risque pour votre PC. La vidéo qui vous donnera des explications et du contexte est la suivante (recommandée).
 
-![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [`https://www.youtube.com/watch?v=X4AVdnHFn_E`](https://www.youtube.com/watch?v=X4AVdnHFn_E)
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [`Quelques tweaks regedit (basiques)`](https://www.youtube.com/watch?v=X4AVdnHFn_E)
 
 Et la liste des tweaks proposés (à rentrer dans CMD en admin, encore une fois)
 
@@ -89,7 +89,7 @@ L'étape suivante consiste à installer les autres pilotes de votre système. La
 Le résumé, c'est qu'utiliser des outils comme driverscloud, driverbooster, touslesdrivers, etc, c'est pas la meilleure façon d'installer vos drivers, et ça peut créer des soucis. Le site de la carte mère, et le site de la carte graphique sont les meilleurs endroits. Pour plus de détails, je vous renvoie à la vidéo.
 
 ## Mises à jour de Windows
-Une fois nos tous nos drivers à jour, et avant d'entamer la suite des réglages de Windows, on va vérifier les éventuelles mises à jour. On le fait maintenant, parce que certaines grosses mises à jour peuvent réinitialiser certains paramètres de windows, ça nous évitera de faire les réglages 2 fois.
+Une fois tous nos drivers à jour, et avant d'entamer la suite des réglages de Windows, on va vérifier les éventuelles mises à jour. On le fait maintenant, parce que certaines grosses mises à jour peuvent réinitialiser certains paramètres de windows, ça nous évitera de faire les réglages 2 fois.
 Il suffit d'aller dans les options de windows, cliquer sur windows update, et faire une recherche de mises à jour. Une fois qu'elles ont été téléchargées et installées, redémarrer le PC.
 **Une fois le PC redémarré, refaites une vérification de mise à jour**. Des fois, le fait d'avoir fait une màj va débloquer l'installation d'autres màj, d'ou le fait de devoir faire la vérification deux fois de suite. Si il y a de nouvelles mises à jour, répéter l'opération, jusqu'à avoir windows à jour.
 
@@ -125,6 +125,7 @@ Msi Afterburner est un logiciel très léger et puissant, qui va vous permettre 
 L'explication et l'utilité du mode MSI se trouvent dans la vidéo suivante : 
 
 ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [`MSI Mode`](https://youtu.be/eydeMfLlIsA?t=502)
+Je vous rajoute ici le lien vers msi_util v2 : http://www.mediafire.com/file/2kkkvko7e75opce/MSI_util_v2.zip
 
 Si vous souhaitez des informations complémentaires sur le mode MSI (pour la culture générale), cette explication est très bien : https://forum.malekal.com/viewtopic.php?t=62058
 
