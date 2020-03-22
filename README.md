@@ -1,4 +1,4 @@
-$bg-gray
+
 # Optimiser son PC.
 Il existe énormément de tweaks, optimisations, tutoriels, scripts et logiciels sur internet qui vont vous promettre de doubler vos FPS, réduire votre latence, stabiliser vos FPS, et je ne sais quoi d'autre. La majorité de ces tweaks sont faux, plus à jour, n'améliorent rien, et risquent de vous forcer à réinstaller windows en cas d'erreur (et des fois même si vous avez tout suivi correctement), voire même d'endommager votre PC.
 Les simples tweaks que je vais détailler ici vont garantir un pc qui sera sain, et vous aurez fait 99% du chemin concernant l'optimisation de votre PC, sans danger pour le PC, et avec tout qui fonctionnera.
@@ -28,7 +28,9 @@ Voici ce que je vous conseille sur une nouvelle installation de windows. Ce sont
 
 Pour installer Windows, je vous propose la vidéo de Topachat, qui est complète et couvre bien le sujet. 
 
+<div class="text-purple">
 [`https://www.youtube.com/watch?v=uHOP4UbEGug`](https://www.youtube.com/watch?v=uHOP4UbEGug)
+</div>
 
 La seule chose que j'ajouterai, c'est que je vous suggère de **débrancher le câble Ethernet (ou la carte wifi) pendant l'installation de Windows.** En effet, Windows par défault installe des drivers pour votre matériel, pendant l'installation de Windows. Je considère ça comme pas idéal, parce que la première chose qu'un va faire après l'install, c'est de mettre à jour nos drivers, alors autant s'épargner l'installation d'anciennes versions de drivers par Windows.
 On pourra rebrancher le câble ethernet uniquement **après avoir désactivé l'installation automatique des drivers**
