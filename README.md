@@ -11,17 +11,17 @@ Voici ce que je vous conseille sur une nouvelle installation de windows. Ce sont
 
  - [**Installation de Windows**](#Installation-de-Windows)
  - [**Désactivation des drivers automatiques**](#Désactivation-des-drivers-automatiques)
- - [**Tweaks regedit**](#regedit)
- - [**Installation du driver vidéo**](#driver-nvidia)
- - [**Installation des drivers**](#drivers)
- - [**Mises à jour de Windows**](#windows-maj)
- - [**Paramètres de Windows**](#windows-settings)
+ - [**Tweaks regedit**](#Tweaks-regedit)
+ - [**Installation du driver vidéo**](#Installation-du-driver-vidéo)
+ - [**Installation des drivers**](#Installation-des-drivers)
+ - [**Mises à jour de Windows**](#Mises-à-jour-de-Windows)
+ - [**Paramètres de Windows**](#Paramètres-de-Windows)
  - [**W10Privacy**](#w10privacy)
- - [**Réglages du panneau Nvidia**](#panneau-nvidia)
- - [**MSI Afterburner**](#afterburner)
- - [**Mode MSI**](#msi-mode)
- - [**ISLC : Intelligent Standby List Cleaner**](#islc)
- - [**Mode de gestion d'alimentation**](#alimentation)
+ - [**Réglages du panneau Nvidia**](#Réglages-du-panneau-Nvidia)
+ - [**MSI Afterburner**](#MSI-Afterburner)
+ - [**Mode MSI**](#Mode-MSI)
+ - [**ISLC : Intelligent Standby List Cleaner**](#ISLC-:-Intelligent-Standby-List-Cleaner)
+ - [**Mode de gestion d'alimentation**](#Mode-de-gestion-d'alimentation)
 ## Installation de Windows
 
 **Note:** Je recommande de réinstaller Windows, afin de repartir sur une base saine. Qui sait ce que vous avez installé sur votre PC, quels tweaks (utiles ou non) vous avez pu installer, quels logiciels inutiles ou virus vous pouvez avoir sur votre PC, etc etc. Réinstaller complètement Windows permettra de raptir complètement d'une base sain, et d'assurer des performances et une compatibilité maximale.
