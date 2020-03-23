@@ -56,8 +56,9 @@ Et la liste des tweaks proposés (à rentrer dans CMD en admin, encore une fois)
 
 `REG ADD "HKCU\Keyboard Layout\toggle" /v "Language Hotkey" /t REG_SZ /d 3 /f`
 
-`REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v DisallowShaking /t REG_DWORD /d 00000001 /f
-powercfg -h off`
+`REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v DisallowShaking /t REG_DWORD /d 00000001 /f`
+
+`powercfg -h off`
 
 `fsutil behavior set DisableDeleteNotify 0`
 
