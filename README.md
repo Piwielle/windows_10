@@ -144,7 +144,9 @@ Pour finir, un des réglages les plus importants que vous pouvez faire à votre 
 
 ## Réactivation des drivers automatiques
 L'étape finale consiste à réactiver les drivers automatique installés par Windows. C'est pénible et inutile quand on installe windows, parce qu'on va de toute façon installer nos propres drivers juste après, mais une fois que tout est fait, je vous conseille de les réactiver.
+
 Ils sont très utiles pour laisser Windows détecter et installer automatiquement des drivers lorsque vous branchez quelque chose de nouveau au PC (comme une imprimante, une manette, un disque dur externe, etc).
+
 Dans certains cas (l'ancien adaptateur sans fil de la manette xbox par exemple), sans les drivers automatiques de windows, vous allez passer des heures à chercher le bon fichier .cab pour l'installer, alors que ça sera fera automatiquement en 2 secondes avec. Pour les réactiver, entrez simplement dans CMD en admin la commande suivante : 
 
 `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\DriverSearching" /v SearchOrderConfig /t REG_DWORD /d 00000001 /f`
