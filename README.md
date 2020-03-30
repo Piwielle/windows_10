@@ -46,6 +46,7 @@ Si vous n'avez pas envie de regarder la vidéo, la commande à rentrer dans CMD 
 `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\DriverSearching" /v SearchOrderConfig /t REG_DWORD /d 00000000 /f`
 
 Une fois les drivers de Windows désactivés, vous devez impérativement **redémarrer le PC**. Une fois que c'est fait, vous pouvez **rebrancher internet**
+
 Reboot le PC maintenant vous permettra d'avoir accès à internet, et donc de copier/coller les commandes CMD suivantes (si vous les avez pas sauvegardé avant l'install sur un fichier texte dans une clé USB)
 
 
