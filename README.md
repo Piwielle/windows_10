@@ -45,6 +45,10 @@ Si vous n'avez pas envie de regarder la vidéo, la commande à rentrer dans CMD 
 
 `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\DriverSearching" /v SearchOrderConfig /t REG_DWORD /d 00000000 /f`
 
+Une fois les drivers de Windows désactivés, vous devez impérativement **redémarrer le PC**. Une fois que c'est fait, vous pouvez **rebrancher internet**
+Reboot le PC maintenant vous permettra d'avoir accès à internet, et donc de copier/coller les commandes CMD suivantes (si vous les avez pas sauvegardé avant l'install sur un fichier texte dans une clé USB)
+
+
 Tant qu'on est à faire des changements dans regedit, je vous propose quelques petits tweaks basiques, qui vont légèrement améliorer les performances de votre PC, mais sans aucun problème de compatibilité, ou risque pour votre PC. La vidéo qui vous donnera des explications et du contexte est la suivante (recommandée).
 
 ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [`Quelques tweaks regedit (basiques)`](https://www.youtube.com/watch?v=X4AVdnHFn_E)
@@ -65,7 +69,7 @@ Et la liste des tweaks proposés (à rentrer dans CMD en admin, encore une fois)
 
 `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile" /v SystemResponsiveness /t REG_DWORD /d 00000010 /f`
 
-Une fois les drivers de Windows désactivés, vous devez impérativement **redémarrer le PC**. Une fois que c'est fait, vous pouvez **rebrancher internet**
+
 
 ## Installation du driver vidéo
 On va maintenant installer le driver vidéo de votre carte graphique. Pour ça, plusieurs méthodes selon vos besoins : 
