@@ -10,8 +10,8 @@ Voici ce que je vous conseille sur une nouvelle installation de windows. Ce sont
 ## Table des matières
 
  - [**Installation de Windows**](#installation-de-windows)
- - [**Désactivation des drivers automatiques**](#desactivation-des-drivers-automatiques)
- - [**Tweaks regedit**](#désactivation-des-drivers-automatiques)
+ - [**Désactivation des drivers automatiques**](#désactivation-des-drivers-automatiques-&-tweaks-regedit)
+ - [**Tweaks regedit**](#désactivation-des-drivers-automatiques-&-tweaks-regedit)
  - [**Installation du driver vidéo**](#installation-du-driver-vidéo)
  - [**Installation des drivers**](#installation-des-drivers)
  - [**Mises à jour de Windows**](#mises-à-jour-de-windows)
