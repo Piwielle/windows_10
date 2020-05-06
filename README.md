@@ -9,20 +9,20 @@ Voici ce que je vous conseille sur une nouvelle installation de windows. Ce sont
 
 ## Table des matières
 
- - [**Installation de Windows**](#Installation-de-Windows)
- - [**Désactivation des drivers automatiques**](#Désactivation-des-drivers-automatiques)
- - [**Tweaks regedit**](#Tweaks-regedit)
- - [**Installation du driver vidéo**](#Installation-du-driver-vidéo)
- - [**Installation des drivers**](#Installation-des-drivers)
- - [**Mises à jour de Windows**](#Mises-à-jour-de-Windows)
- - [**Paramètres de Windows**](#Paramètres-de-Windows)
+ - [**Installation de Windows**](#installation-de-windows)
+ - [**Désactivation des drivers automatiques**](#désactivation-des-drivers-automatiques)
+ - [**Tweaks regedit**](#tweaks-regedit)
+ - [**Installation du driver vidéo**](#installation-du-driver-vidéo)
+ - [**Installation des drivers**](#installation-des-drivers)
+ - [**Mises à jour de Windows**](#mises-à-jour-de-windows)
+ - [**Paramètres de Windows**](#paramètres-de-windows)
  - [**W10Privacy**](#w10privacy)
- - [**Réglages du panneau Nvidia**](#Réglages-du-panneau-Nvidia)
- - [**MSI Afterburner**](#MSI-Afterburner)
- - [**Mode MSI**](#Mode-MSI)
- - [**ISLC Intelligent Standby List Cleaner**](#ISLC-Intelligent-Standby-List-Cleaner)
- - [**Mode de gestion d'alimentation**](#Mode-de-gestion-dalimentation)
- - [**Réactivation des drivers automatiques**](#Réactivation-des-drivers-automatiques)
+ - [**Réglages du panneau Nvidia**](#réglages-du-panneau-nvidia)
+ - [**MSI Afterburner**](#msi-afterburner)
+ - [**Mode MSI**](#mode-msi)
+ - [**ISLC Intelligent Standby List Cleaner**](#islc-intelligent-standby-list-cleaner)
+ - [**Mode de gestion d'alimentation**](#mode-de-gestion-dalimentation)
+ - [**Réactivation des drivers automatiques**](#réactivation-des-drivers-automatiques)
 ## Installation de Windows
 
 **Note:** Je recommande de réinstaller Windows, afin de repartir sur une base saine. Qui sait ce que vous avez installé sur votre PC, quels tweaks (utiles ou non) vous avez pu installer, quels logiciels inutiles ou virus vous pouvez avoir sur votre PC, etc etc. Réinstaller complètement Windows permettra de repartir complètement d'une base saine, et d'assurer des performances et une compatibilité maximale.
