@@ -133,7 +133,7 @@ L'explication et l'utilité du mode MSI se trouvent dans la vidéo suivante :
 
 ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [`MSI Mode`](https://youtu.be/eydeMfLlIsA?t=502)
 
-Je vous rajoute ici le lien vers msi_util v2 : [http://www.mediafire.com/file/2kkkvko7e75opce/MSI_util_v2.zip](http://www.mediafire.com/file/2kkkvko7e75opce/MSI_util_v2.zip)
+Je vous rajoute ici le lien vers msi_util v2 : [http://www.mediafire.com/file/ewpy1p0rr132thk/MSI_util_v3.zip/file](http://www.mediafire.com/file/ewpy1p0rr132thk/MSI_util_v3.zip/file)
 
 Si vous souhaitez des informations complémentaires sur le mode MSI (pour la culture générale), cette explication est très bien : [https://forum.malekal.com/viewtopic.php?t=62058](https://forum.malekal.com/viewtopic.php?t=62058)
 
