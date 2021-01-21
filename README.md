@@ -23,7 +23,7 @@ Voici ce que je vous conseille sur une nouvelle installation de windows. Ce sont
  - [**ISLC Intelligent Standby List Cleaner**](#islc-intelligent-standby-list-cleaner)
  - [**Mode de gestion d'alimentation**](#mode-de-gestion-dalimentation)
  - [**Réactivation des drivers automatiques**](#réactivation-des-drivers-automatiques)
- - [**Installation des bibliothèques C++**](#installation-des-bibliotheques-c)
+ - [**Installation des bibliothèques C++**](#installation-des-bibliothèques-c)
 ## Installation de Windows
 
 **Note:** Je recommande de réinstaller Windows, afin de repartir sur une base saine. Qui sait ce que vous avez installé sur votre PC, quels tweaks (utiles ou non) vous avez pu installer, quels logiciels inutiles ou virus vous pouvez avoir sur votre PC, etc etc. Réinstaller complètement Windows permettra de repartir complètement d'une base saine, et d'assurer des performances et une compatibilité maximale.
