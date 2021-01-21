@@ -23,7 +23,7 @@ Voici ce que je vous conseille sur une nouvelle installation de windows. Ce sont
  - [**ISLC Intelligent Standby List Cleaner**](#islc-intelligent-standby-list-cleaner)
  - [**Mode de gestion d'alimentation**](#mode-de-gestion-dalimentation)
  - [**Réactivation des drivers automatiques**](#réactivation-des-drivers-automatiques)
- - [**Installation des bibliothèques C++**](#Installation-des-bibliotheques-c++)
+ - [**Installation des bibliothèques C++**](#installation-des-bibliotheques-c++)
 ## Installation de Windows
 
 **Note:** Je recommande de réinstaller Windows, afin de repartir sur une base saine. Qui sait ce que vous avez installé sur votre PC, quels tweaks (utiles ou non) vous avez pu installer, quels logiciels inutiles ou virus vous pouvez avoir sur votre PC, etc etc. Réinstaller complètement Windows permettra de repartir complètement d'une base saine, et d'assurer des performances et une compatibilité maximale.
@@ -159,7 +159,7 @@ Dans certains cas (l'ancien adaptateur sans fil de la manette xbox par exemple),
 
 ## Installation des bibliothèques C++
 Pour terminer, on va installer les bibliothèques C++. Ce sont des bibliothèques qui sont utilisées par énormément d'applications, qui refuseront de se lancer tant que vous ne les avez pas installé (teamspeak, par exemple, et énormément de jeux). Les erreurs "MSVCP100.dll" par exemple, et beaucoup d'autres, viennent de là.
-Afin de les installer facilement, on va utiliser un pack qui les regroupe et les installe pour nous : [https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/]
+Afin de les installer facilement, on va utiliser un pack qui les regroupe et les installe pour nous : https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/
 - Allez sur le lien ci dessus, puis cliquer sur le bouton bleu à gauche de la page marqué "DOWNLOAD"
 - Sur la page qui s'ouvre, cliquez sur n'importe quel drapeau pour lancer le téléchargement.
 - Vous avez téléchargé une archive. Utilisez winRAR, ou 7-zip, ou le gestionnaire d'archive de windows pour extraire cette archive (clic droit -> extraire).
