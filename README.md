@@ -23,6 +23,7 @@ Voici ce que je vous conseille sur une nouvelle installation de windows. Ce sont
  - [**ISLC Intelligent Standby List Cleaner**](#islc-intelligent-standby-list-cleaner)
  - [**Mode de gestion d'alimentation**](#mode-de-gestion-dalimentation)
  - [**Réactivation des drivers automatiques**](#réactivation-des-drivers-automatiques)
+ - [**Installation des bibliothèques C++**](#installation-des-bibliotheqes-c++)
 ## Installation de Windows
 
 **Note:** Je recommande de réinstaller Windows, afin de repartir sur une base saine. Qui sait ce que vous avez installé sur votre PC, quels tweaks (utiles ou non) vous avez pu installer, quels logiciels inutiles ou virus vous pouvez avoir sur votre PC, etc etc. Réinstaller complètement Windows permettra de repartir complètement d'une base saine, et d'assurer des performances et une compatibilité maximale.
@@ -148,10 +149,21 @@ Pour finir, un des réglages les plus importants que vous pouvez faire à votre 
 ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [`Mode de gestion d'alimentation`](https://youtu.be/SAlqNxr1eVY)
 
 ## Réactivation des drivers automatiques
-L'étape finale consiste à réactiver les drivers automatique installés par Windows. C'est pénible et inutile quand on installe windows, parce qu'on va de toute façon installer nos propres drivers juste après, mais une fois que tout est fait, je vous conseille de les réactiver.
+L'avant dernière étape consiste à réactiver les drivers automatique installés par Windows. C'est pénible et inutile quand on installe windows, parce qu'on va de toute façon installer nos propres drivers juste après, mais une fois que tout est fait, je vous conseille de les réactiver.
 
 Ils sont très utiles pour laisser Windows détecter et installer automatiquement des drivers lorsque vous branchez quelque chose de nouveau au PC (comme une imprimante, une manette, un disque dur externe, etc).
 
 Dans certains cas (l'ancien adaptateur sans fil de la manette xbox par exemple), sans les drivers automatiques de windows, vous allez passer des heures à chercher le bon fichier .cab pour l'installer, alors que ça sera fera automatiquement en 2 secondes avec. Pour les réactiver, entrez simplement dans CMD en admin la commande suivante : 
 
 `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\DriverSearching" /v SearchOrderConfig /t REG_DWORD /d 00000001 /f`
+
+## Installation des bibliothèques C++
+Pour terminer, on va installer les bibliothèques C++. Ce sont des bibliothèques qui sont utilisées par énormément d'applications, qui refuseront de se lancer tant que vous ne les avez pas installé (teamspeak, par exemple, et énormément de jeux). Les erreurs "MSVCP100.dll" par exemple, et beaucoup d'autres, viennent de là.
+Afin de les installer facilement, on va utiliser un pack qui les regroupe et les installe pour nous : [https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/]
+- Allez sur le lien ci dessus, puis cliquer sur le bouton bleu à gauche de la page marqué "DOWNLOAD"
+- Sur la page qui s'ouvre, cliquez sur n'importe quel drapeau pour lancer le téléchargement.
+- Vous avez téléchargé une archive. Utilisez winRAR, ou 7-zip, ou le gestionnaire d'archive de windows pour extraire cette archive (clic droit -> extraire).
+- Une fois l'archive extraite, ouvrez le dossier de l'archive extraite, faites un clic droit sur le fichier "**install_all**", et cliquez sur "**Lancer en tant qu'administrateur**".
+- Attendre la fin des installations, puis redémarrer le PC.
+
+Bravo, c'est fini !
