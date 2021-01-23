@@ -77,7 +77,7 @@ Et la liste des tweaks proposés (à rentrer dans CMD en admin, encore une fois)
 On va maintenant installer le driver vidéo de votre carte graphique. Pour ça, plusieurs méthodes selon vos besoins : 
 
 **Carte AMD :**
-Le pilote à télécharger sera disponible sur `https://www.amd.com/fr/support`. Il suffit de choisir la bonne CG, de le télécharger, et de l'installer.
+Le pilote à télécharger sera disponible sur [`https://www.amd.com/fr/support`](https://www.amd.com/fr/support). Il suffit de choisir la bonne CG, de le télécharger, et de l'installer.
 
 **Carte NVIDIA :**
 Méthode 1 (à utiliser si vous avez besoin de Shadowplay, ou d'utiliser les hauts parleurs de votre écran, ou de Geforce experience, etc) : Le pilote à télécharger sera disponible sur [`https://www.nvidia.fr/Download/Find.aspx?lang=fr`](https://www.nvidia.fr/Download/Find.aspx?lang=fr) (sélectionner la version **STANDARD** -> faire la recherche -> télécharger le driver **Game Ready** le plus récent)
@@ -159,7 +159,7 @@ Dans certains cas (l'ancien adaptateur sans fil de la manette xbox par exemple),
 
 ## Installation des bibliothèques C++
 Pour terminer, on va installer les bibliothèques C++. Ce sont des bibliothèques qui sont utilisées par énormément d'applications, qui refuseront de se lancer tant que vous ne les avez pas installé (teamspeak, par exemple, et énormément de jeux). Les erreurs "MSVCP100.dll" par exemple, et beaucoup d'autres, viennent de là.
-Afin de les installer facilement, on va utiliser un pack qui les regroupe et les installe pour nous : [https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/]
+Afin de les installer facilement, on va utiliser un pack qui les regroupe et les installe pour nous : [`https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/`](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
 - Allez sur le lien ci dessus, puis cliquer sur le bouton bleu à gauche de la page marqué "DOWNLOAD"
 - Sur la page qui s'ouvre, cliquez sur n'importe quel drapeau pour lancer le téléchargement.
 - Vous avez téléchargé une archive. Utilisez winRAR, ou 7-zip, ou le gestionnaire d'archive de windows pour extraire cette archive (clic droit -> extraire).
