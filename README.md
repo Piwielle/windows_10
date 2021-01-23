@@ -80,7 +80,7 @@ On va maintenant installer le driver vidéo de votre carte graphique. Pour ça, 
 Le pilote à télécharger sera disponible sur `https://www.amd.com/fr/support`. Il suffit de choisir la bonne CG, de le télécharger, et de l'installer.
 
 **Carte NVIDIA :**
-Méthode 1 (à utiliser si vous avez besoin de Shadowplay, ou d'utiliser les hauts parleurs de votre écran, ou de Geforce experience, etc) : Le pilote à télécharger sera disponible sur `https://www.nvidia.fr/Download/Find.aspx?lang=fr` (sélectionner la version **STANDARD** -> faire la recherche -> télécharger le driver **Game Ready** le plus récent)
+Méthode 1 (à utiliser si vous avez besoin de Shadowplay, ou d'utiliser les hauts parleurs de votre écran, ou de Geforce experience, etc) : Le pilote à télécharger sera disponible sur [`https://www.nvidia.fr/Download/Find.aspx?lang=fr`](https://www.nvidia.fr/Download/Find.aspx?lang=fr) (sélectionner la version **STANDARD** -> faire la recherche -> télécharger le driver **Game Ready** le plus récent)
 - Méthode 2 (à utiliser si vous souhaitez une version "lite" des drivers, qui n'a pas geforce experience, shadowplay, etc) : utiliser  [`NVCleanInstall`](https://www.techpowerup.com/download/techpowerup-nvcleanstall/) pour installer votre driver.
 
 Je discute des avantages et des inconvénients de NVCleanInstall dans cette vidéo (que je vous conseille encore une fois de regarder pour du contexte et des informations supplémentaires) : 
