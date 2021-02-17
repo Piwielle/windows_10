@@ -130,6 +130,10 @@ Msi Afterburner est un logiciel très léger et puissant, qui va vous permettre 
 ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [`Utiliser MSI Afterburner`](https://youtu.be/eydeMfLlIsA?t=1)
 
 ## Mode MSI
+
+Première note avant de continuer : Si vous avez une carte graphique AMD, le mode MSI est activé automatiquement à l'installation des pilotes, et vous n'avez rien à faire !
+
+
 L'explication et l'utilité du mode MSI se trouvent dans la vidéo suivante : 
 
 ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [`MSI Mode`](https://youtu.be/eydeMfLlIsA?t=502)
@@ -137,6 +141,7 @@ L'explication et l'utilité du mode MSI se trouvent dans la vidéo suivante :
 Je vous rajoute ici le lien vers msi_util v3 : [http://www.mediafire.com/file/ewpy1p0rr132thk/MSI_util_v3.zip/file](http://www.mediafire.com/file/ewpy1p0rr132thk/MSI_util_v3.zip/file)
 
 Si vous souhaitez des informations complémentaires sur le mode MSI (pour la culture générale), cette explication est très bien : [https://forum.malekal.com/viewtopic.php?t=62058](https://forum.malekal.com/viewtopic.php?t=62058)
+
 
 ## ISLC Intelligent Standby List Cleaner
 Comme MSI Afterburner, j'utilise ISLC sur tous mes ordinateurs, pour sa légèreté, et les deux fonctionnalités utiles qu'il propose : 
