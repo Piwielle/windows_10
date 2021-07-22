@@ -57,7 +57,7 @@ Tant qu'on est à faire des changements dans regedit, je vous propose quelques p
 
 ![#f03c15](https://i.imgur.com/Kpeo7Gq.png) [`Quelques tweaks regedit (basiques)`](https://www.youtube.com/watch?v=X4AVdnHFn_E)
 
-Et la liste des tweaks proposés (à rentrer dans CMD en admin, encore une fois)
+Et la liste des tweaks proposés (à rentrer dans CMD en admin, encore une fois, et attention, certaines des commandes prennent deux lignes, prenez les en entier !)
 
 `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v AllowCortana /t REG_DWORD /d 00000000 /f`
 
