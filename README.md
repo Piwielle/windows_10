@@ -64,9 +64,11 @@ Et la liste des tweaks proposés (à rentrer dans CMD en admin, encore une fois,
 `REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power" /v HiberbootEnabled /t REG_DWORD /d 00000000 /f`
 
 `REG ADD "HKCU\Keyboard Layout\toggle" /v "Language Hotkey" /t REG_SZ /d 3 /f`
+
 /!\ cette commande va désactiver le raccourci alt+maj pour changer la langue du clavier. Pour le réactiver si vous l'avez fais, refaites la même commande en remplaçant le 3 par un 1
 
 `REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v DisallowShaking /t REG_DWORD /d 00000001 /f`
+
 /!\ cette commande va désactiver les autres fenêtres qui se ferment quand on secoue n'importe quelle fenêtre. Pour le réactiver si vous l'avez fais, refaites la même commande en remplaçant le 1 par un 0
 
 `powercfg -h off`
