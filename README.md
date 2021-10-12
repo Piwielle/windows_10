@@ -7,6 +7,9 @@ Si vous souhaitez gratter le 1% restant, faites le, mais sachez que c'est à vos
 
 Voici ce que je vous conseille sur une nouvelle installation de windows. Ce sont des tweaks qui sont sans dangers pour le pc, que ce soit niveau hardware ou software. Si vous avez une question particulière durant une des étapes, n'hésitez pas à demander sur *[`Discord`](https://discord.gg/informatique)* !<br/>
 
+# Windows 11 : 
+Windows 11 est sorti. Il est encore (à mon avis) trop jeune, trop rempli de bugs, et pas suffisamment stable pour être utilisé comme OS principal. Une fois que ça sera le cas (probablement pas avant 2022 au cours actuel des choses), le guide sera mis à jour.
+
 ## Table des matières
 
  - [**Installation de Windows**](#installation-de-windows)
@@ -34,7 +37,7 @@ Pour installer Windows, je vous propose la vidéo de Topachat, qui est complète
 
 ![#f03c15](https://i.imgur.com/Kpeo7Gq.png) [`[TUTO] Installer Windows 10 & Tes Drivers - TopAchat [FR]`](https://www.youtube.com/watch?v=uHOP4UbEGug)
 
-La seule chose que j'ajouterai, c'est que je vous suggère de **débrancher le câble Ethernet (ou la carte wifi) pendant l'installation de Windows.** En effet, Windows par défaut installe des drivers pour votre matériel, pendant l'installation de Windows. Je considère ça comme pas idéal, parce que la première chose qu'on va faire après l'install, c'est de mettre à jour nos drivers, alors autant s'épargner l'installation d'anciennes versions de drivers par Windows.
+La seule chose que j'ajouterai, c'est que je vous suggère de **débrancher le câble Ethernet (ou la carte wifi) pendant l'installation de Windows.** Windows par défaut installe des drivers pour votre matériel, pendant l'installation. Je considère ça comme pas idéal, parce que la première chose qu'on va faire après l'install, c'est de mettre à jour nos drivers, alors autant s'épargner l'installation d'anciennes versions de drivers par Windows.
 On pourra rebrancher le câble ethernet uniquement **après avoir désactivé l'installation automatique des drivers**.
 
 ## Désactivation des drivers automatiques & Tweaks Regedit
@@ -50,7 +53,7 @@ Si vous n'avez pas envie de regarder la vidéo, la commande à rentrer dans CMD 
 
 Une fois les drivers de Windows désactivés, vous devez impérativement **redémarrer le PC**. Une fois que c'est fait, vous pouvez **rebrancher internet**
 
-Reboot le PC maintenant vous permettra d'avoir accès à internet, et donc de copier/coller les commandes CMD suivantes (si vous les avez pas sauvegardé avant l'install sur un fichier texte dans une clé USB)
+Reboot le PC maintenant vous permettra d'avoir accès à internet, et donc à ce guide sur PC.
 
 
 Tant qu'on est à faire des changements dans regedit, je vous propose quelques petits tweaks basiques, qui vont légèrement améliorer les performances de votre PC, mais sans aucun problème de compatibilité, ou risque pour votre PC. La vidéo qui vous donnera des explications et du contexte est la suivante (recommandée).
@@ -63,13 +66,7 @@ Et la liste des tweaks proposés (à rentrer dans CMD en admin, encore une fois,
 
 `REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power" /v HiberbootEnabled /t REG_DWORD /d 00000000 /f`
 
-`REG ADD "HKCU\Keyboard Layout\toggle" /v "Language Hotkey" /t REG_SZ /d 3 /f`
-
-/!\ cette commande va désactiver le raccourci alt+maj pour changer la langue du clavier. Pour le réactiver si vous l'avez fais, refaites la même commande en remplaçant le 3 par un 1
-
 `REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v DisallowShaking /t REG_DWORD /d 00000001 /f`
-
-/!\ cette commande va désactiver les autres fenêtres qui se ferment quand on secoue n'importe quelle fenêtre. Pour le réactiver si vous l'avez fais, refaites la même commande en remplaçant le 1 par un 0
 
 `powercfg -h off`
 
@@ -157,10 +154,16 @@ Comme MSI Afterburner, j'utilise ISLC sur tous mes ordinateurs, pour sa légère
 ## Mode de gestion d'alimentation
 Pour finir, un des réglages les plus importants que vous pouvez faire à votre système, c'est de changer son mode d'alimentation pour le passer en "hautes performances". Une vidéo explicative si vous en avez besoin est disponible ici : 
 
-![#f03c15](https://i.imgur.com/Kpeo7Gq.png) [`Mode de gestion d'alimentation`](https://youtu.be/SAlqNxr1eVY)
+![#f03c15](https://i.imgur.com/Kpeo7Gq.png) [`Mode de gestion d'alimentation`](https://youtu.be/SAlqNxr1eVY).
+
+/!\ Le mode de gestion d'alimentation le plus optimal pour les performances dépend de votre CPU.
+- CPU Intel : Les modes de gestion "hautes performances" ou "performances optimales" sont les meilleurs.
+
+- CPU AMD Ryzen 3XXX : Le mode de gestion "Ryzen balanced" est le meilleur mode. (il s'installe quand vous installez les pilotes de chipset)
+- CPU AMD Ryzen 5XXX : le mode de gestion "Utilisation normale" est le meilleur mode (vous pouvez bouger le slider dans Paramètres -> Système -> Alimentation pour un léger gain).
 
 ## Réactivation des drivers automatiques
-L'avant dernière étape consiste à réactiver les drivers automatique installés par Windows. C'est pénible et inutile quand on installe windows, parce qu'on va de toute façon installer nos propres drivers juste après, mais une fois que tout est fait, je vous conseille de les réactiver.
+L'avant dernière étape consiste à réactiver les drivers automatique installés par Windows. C'est inutile quand on installe windows, parce qu'on va de toute façon installer nos propres drivers juste après, mais une fois que tout est fait, je vous conseille de les réactiver.
 
 Ils sont très utiles pour laisser Windows détecter et installer automatiquement des drivers lorsque vous branchez quelque chose de nouveau au PC (comme une imprimante, une manette, un disque dur externe, etc).
 
