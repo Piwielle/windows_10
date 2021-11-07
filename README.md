@@ -36,7 +36,7 @@ La première chose qu'on va faire pour s'assurer que tout fonctionne au mieux, c
 Mais avant de faire ça, sauvegarder ses données importantes, c'est une bonne idée.
 Pour vous aider à faire ça de façon efficace, je vous ai préparé un document qui regroupe les méthodes de sauvegarde des logiciels les plus utilisés.
 
-C'est par là : *[`https://github.com/Piwielle/Backup-logiciels/blob/main/README.md`](https://github.com/Piwielle/Backup-logiciels/blob/main/README.md)*
+C'est par là : [`https://github.com/Piwielle/Backup-logiciels/blob/main/README.md`](https://github.com/Piwielle/Backup-logiciels/blob/main/README.md)
  
  
 ## Installation de Windows
