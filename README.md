@@ -25,7 +25,6 @@ Windows 11 est sorti. Il est encore (à mon avis) trop jeune, trop rempli de bug
  - [**Réglages du panneau Nvidia**](#réglages-du-panneau-nvidia)
  - [**MSI Afterburner**](#msi-afterburner)
  - [**Mode MSI**](#mode-msi)
- - [**ISLC Intelligent Standby List Cleaner**](#islc-intelligent-standby-list-cleaner)
  - [**Mode de gestion d'alimentation**](#mode-de-gestion-dalimentation)
  - [**Réactivation des drivers automatiques**](#réactivation-des-drivers-automatiques)
  - [**Installation des bibliothèques C++**](#installation-des-bibliothèques-c)
@@ -79,11 +78,17 @@ Et la liste des tweaks proposés (à rentrer dans CMD en admin, encore une fois,
 
 `REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v DisallowShaking /t REG_DWORD /d 00000001 /f`
 
+`REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile" /v SystemResponsiveness /t REG_DWORD /d 00000010 /f`
+
+`REG ADD "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer" /v DisableSearchBoxSuggestions /t REG_DWORD /d 00000001 /f`
+
+`sc stop “SysMain” & sc config “SysMain” start=disabled`
+
 `powercfg -h off`
 
 `fsutil behavior set DisableDeleteNotify 0`
 
-`REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile" /v SystemResponsiveness /t REG_DWORD /d 00000010 /f`
+
 
 
 
@@ -94,7 +99,7 @@ On va maintenant installer le driver vidéo de votre carte graphique. Pour ça, 
 Le pilote à télécharger sera disponible sur [`https://www.amd.com/fr/support`](https://www.amd.com/fr/support). Il suffit de choisir la bonne CG, de le télécharger, et de l'installer.
 
 **Carte NVIDIA :**
-Méthode 1 (à utiliser si vous avez besoin de Shadowplay, ou d'utiliser les hauts parleurs de votre écran, ou de Geforce experience, etc) : Le pilote à télécharger sera disponible sur [`https://www.nvidia.fr/Download/Find.aspx?lang=fr`](https://www.nvidia.fr/Download/Find.aspx?lang=fr) (sélectionner la version **STANDARD** -> faire la recherche -> télécharger le driver **Game Ready** le plus récent)
+Méthode 1 (à utiliser si vous avez besoin de Shadowplay, ou d'utiliser les hauts parleurs de votre écran, ou de Geforce experience, etc) : Le pilote à télécharger sera disponible sur [`https://www.nvidia.fr/Download/Find.aspx?lang=fr`](https://www.nvidia.fr/Download/Find.aspx?lang=fr) (sélectionner la version **DCH** -> faire la recherche -> télécharger le driver **Game Ready** le plus récent)
 - Méthode 2 (à utiliser si vous souhaitez une version "lite" des drivers, qui n'a pas geforce experience, shadowplay, etc) : utiliser  [`NVCleanInstall`](https://www.techpowerup.com/download/techpowerup-nvcleanstall/) pour installer votre driver.
 
 Je discute des avantages et des inconvénients de NVCleanInstall dans cette vidéo (que je vous conseille encore une fois de regarder pour du contexte et des informations supplémentaires) : 
@@ -106,7 +111,7 @@ Une fois le driver vidéo installé, on aura (enfin) notre résolution normale.
 ## Installation des drivers
 L'étape suivante consiste à installer les autres pilotes de votre système. La vidéo explicative est la suivante :
 
-![#f03c15](https://i.imgur.com/Kpeo7Gq.png) [`Installer ses drivers de la bonne façon`](https://www.youtube.com/watch?v=TzSJ_DTLfqY)
+![#f03c15](https://i.imgur.com/Kpeo7Gq.png) [`Installer ses drivers de la bonne façon`](https://www.youtube.com/watch?v=LJ1tgPLHmG0)
 
 Le résumé, c'est qu'utiliser des outils comme driverscloud, driverbooster, touslesdrivers, etc, c'est pas la meilleure façon d'installer vos drivers, et ça peut créer des soucis. Le site de la carte mère, et le site de la carte graphique sont les meilleurs endroits. Pour plus de détails, je vous renvoie à la vidéo.
 
@@ -156,11 +161,6 @@ Je vous rajoute ici le lien vers msi_util v3 : [http://www.mediafire.com/file/ew
 
 Si vous souhaitez des informations complémentaires sur le mode MSI (pour la culture générale), cette explication est très bien : [https://forum.malekal.com/viewtopic.php?t=62058](https://forum.malekal.com/viewtopic.php?t=62058)
 
-
-## ISLC Intelligent Standby List Cleaner
-Comme MSI Afterburner, j'utilise ISLC sur tous mes ordinateurs, pour sa légèreté, et les deux fonctionnalités utiles qu'il propose : 
-
-![#f03c15](https://i.imgur.com/Kpeo7Gq.png) [`ISLC`](https://youtu.be/QV8IojCtoOQ)
 
 ## Mode de gestion d'alimentation
 Pour finir, un des réglages les plus importants que vous pouvez faire à votre système, c'est de changer son mode d'alimentation pour le passer en "hautes performances". Une vidéo explicative si vous en avez besoin est disponible ici : 
