@@ -9,7 +9,7 @@ Si vous souhaitez gratter le 1% restant, faites le, mais sachez que c'est à vos
 Voici ce que je vous conseille sur une nouvelle installation de windows. Ce sont des tweaks qui sont sans dangers pour le pc, que ce soit niveau hardware ou software. Si vous avez une question particulière durant une des étapes, n'hésitez pas à demander sur *[`Discord`](https://discord.gg/informatique)* !<br/>
 
 # Windows 11 : 
-Windows 11 est sorti. Il est encore (à mon avis) trop jeune, trop rempli de bugs, et pas suffisamment stable pour être utilisé comme OS principal. Une fois que ça sera le cas (probablement pas avant 2022 au cours actuel des choses), le guide sera mis à jour.
+Windows 11 est sorti. Il est encore (à mon avis) trop jeune, trop rempli de bugs, et pas suffisamment stable pour être utilisé comme OS principal. Une fois que ça sera le cas (probablement pas avant fin 2022 en prenant en compte la cadence des mises à jour), le guide sera actualisé pour windows 11. En attendant, je vous suggère de rester sur WIndows 10 !
 
 ## Table des matières
 
