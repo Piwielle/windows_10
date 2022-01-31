@@ -84,7 +84,7 @@ Et la liste des tweaks proposés (à rentrer dans CMD en admin, encore une fois,
 
 `REG ADD "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer" /v DisableSearchBoxSuggestions /t REG_DWORD /d 00000001 /f`
 
-`sc stop “SysMain” & sc config “SysMain” start=disabled`
+`sc stop "SysMain" & sc config "SysMain" start=disabled`
 
 `powercfg -h off`
 
