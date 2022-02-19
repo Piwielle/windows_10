@@ -165,9 +165,8 @@ Si vous souhaitez des informations complémentaires sur le mode MSI (pour la cul
 
 
 ## Mode de gestion d'alimentation
-Pour finir, un des réglages les plus importants que vous pouvez faire à votre système, c'est de changer son mode d'alimentation pour le passer en "hautes performances". Une vidéo explicative si vous en avez besoin est disponible ici : 
+Un des réglages les plus importants que vous pouvez faire à votre système, c'est de changer son mode d'alimentation pour utiliser le mode le plus optimal pour les performances. Les réglages donnés ci dessous s'appliquent uniquement pour un PC fixe, pour un PC portable, je vous recommande de ne pas trop toucher, vous allez affecter l'autonomie du PC négativement.
 
-![#f03c15](https://i.imgur.com/Kpeo7Gq.png) [`Mode de gestion d'alimentation`](https://youtu.be/SAlqNxr1eVY).
 
 /!\ Le mode de gestion d'alimentation le plus optimal pour les performances dépend de votre CPU.
 - CPU Intel : Les modes de gestion "hautes performances" ou "performances optimales" sont les meilleurs.
