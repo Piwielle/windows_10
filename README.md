@@ -113,7 +113,7 @@ Une fois le driver vidéo installé, on aura (enfin) notre résolution normale.
 ## Installation des drivers
 L'étape suivante consiste à installer les autres pilotes de votre système. La vidéo explicative est la suivante :
 
-![#f03c15](https://i.imgur.com/Kpeo7Gq.png) [`Installer ses drivers de la bonne façon`](https://www.youtube.com/watch?v=LJ1tgPLHmG0)
+![#f03c15](https://i.imgur.com/Kpeo7Gq.png) [`Bien installer les pilotes de son PC`](https://www.youtube.com/watch?v=LJ1tgPLHmG0)
 
 Le résumé, c'est qu'utiliser des outils comme driverscloud, driverbooster, touslesdrivers, etc, c'est pas la meilleure façon d'installer vos drivers, et ça peut créer des soucis. Le site de la carte mère, et le site de la carte graphique sont les meilleurs endroits. Pour plus de détails, je vous renvoie à la vidéo.
 
