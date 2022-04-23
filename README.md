@@ -1,4 +1,4 @@
-*Dernière mise à jour : 28/01/2022*
+*Dernière mise à jour : 23/04/2022*
 
 # Optimiser son PC.
 Il existe énormément de tweaks, optimisations, tutoriels, scripts et logiciels sur internet qui vont vous promettre de doubler vos FPS, réduire votre latence, stabiliser vos FPS, et je ne sais quoi d'autre. La majorité de ces tweaks sont faux, plus à jour, n'améliorent rien, et risquent de vous forcer à réinstaller windows en cas d'erreur (et des fois même si vous avez tout suivi correctement), voire même d'endommager votre PC.
@@ -9,7 +9,7 @@ Si vous souhaitez gratter le 1% restant, faites le, mais sachez que c'est à vos
 Voici ce que je vous conseille sur une nouvelle installation de windows. Ce sont des tweaks qui sont sans dangers pour le pc, que ce soit niveau hardware ou software. Si vous avez une question particulière durant une des étapes, n'hésitez pas à demander sur *[`Discord`](https://discord.gg/informatique)* !<br/>
 
 # Windows 11 : 
-Windows 11 est sorti. Il est encore (à mon avis) trop jeune, trop rempli de bugs, et pas suffisamment stable pour être utilisé comme OS principal. Une fois que ça sera le cas (probablement pas avant fin 2022 en prenant en compte la cadence des mises à jour), le guide sera actualisé pour windows 11. En attendant, je vous suggère de rester sur Windows 10 !
+Windows 11 est sorti. A mon avis personnel, le bon moment pour l'installer ça sera quand Microsoft aura sorti la version 22H2. Elle est en bêta et devrait sortir cet été (à quelques mois près). Ce guide deviendra un guide pour Windows 11 à ce moment là. Une version pour Windows 10 restera quand même archivée quelque part, mais ne sera plus mise à jour.
 Ceci dit, j'ai personnellement installé Windows 11, pour le tester et préparer un futur guide d'installation. Je maintiens à jour un genre de mini guide, avec les paramètres de W11 que je change/test. Si jamais vous aimez bien expérimenter, vous pouvez potentiellement être intéressés par ce mini guide en beta. C'est par là : 
 https://github.com/Piwielle/windows_11/blob/main/README.md
 
