@@ -47,7 +47,7 @@ C'est par là : [`https://github.com/Piwielle/Backup-logiciels/blob/main/README.
 
 Pour installer Windows, je vous propose la vidéo de Topachat, qui est complète et couvre bien le sujet. 
 
-<img src="https://i.imgur.com/cRUau5i.png" width="40" height="30"> [`[TUTO] Installer Windows 10 & Tes Drivers - TopAchat [FR]`](https://www.youtube.com/watch?v=uHOP4UbEGug)
+ [<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">`[TUTO] Installer Windows 10 & Tes Drivers - TopAchat [FR]`](https://www.youtube.com/watch?v=uHOP4UbEGug)
 
 La seule chose que j'ajouterai, c'est que je vous suggère de **débrancher le câble Ethernet (ou la carte wifi) pendant l'installation de Windows.** Windows par défaut installe des drivers pour votre matériel, pendant l'installation. Je considère ça comme pas idéal, parce que la première chose qu'on va faire après l'install, c'est de mettre à jour nos drivers, alors autant s'épargner l'installation d'anciennes versions de drivers par Windows.
 On pourra rebrancher le câble ethernet uniquement **après avoir désactivé l'installation automatique des drivers**.
@@ -57,7 +57,7 @@ On pourra rebrancher le câble ethernet uniquement **après avoir désactivé l'
 Une fois que Windows sera installé, on se retrouve sur le bureau (avec une résolution très faible, ce qui est normal, la résolution normale viendra quand on aura installé les drivers de la carte graphique).
 La première chose qu'on va faire, c'est désactiver l'installation automatique des drivers de Windows. Pour ce faire, je vous propose de suivre la vidéo suivante : 
 
-![#f03c15](https://i.imgur.com/Kpeo7Gq.png) [`Désactiver l'installation automatique des drivers de Windows Update`](https://www.youtube.com/watch?v=IMmNS6yAK4g)
+[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">`Désactiver l'installation automatique des drivers de Windows Update`](https://www.youtube.com/watch?v=IMmNS6yAK4g)
 
 Si vous n'avez pas envie de regarder la vidéo, la commande à rentrer dans CMD (en admin) est la suivante (ceci dit, je vous conseille quand même la vidéo, qui vous donnera plus d'explications, et de contexte)
 
@@ -70,7 +70,7 @@ Reboot le PC maintenant vous permettra d'avoir accès à internet, et donc à ce
 
 Tant qu'on est à faire des changements dans regedit, je vous propose quelques petits tweaks basiques, qui vont légèrement améliorer les performances de votre PC, mais sans aucun problème de compatibilité, ou risque pour votre PC. La vidéo qui vous donnera des explications et du contexte est la suivante (recommandée).
 
-![#f03c15](https://i.imgur.com/Kpeo7Gq.png) [`Quelques tweaks regedit (basiques)`](https://www.youtube.com/watch?v=X4AVdnHFn_E)
+[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">`Quelques tweaks regedit (basiques)`](https://www.youtube.com/watch?v=X4AVdnHFn_E)
 
 Et la liste des tweaks proposés (à rentrer dans CMD en admin, encore une fois, et attention, certaines des commandes prennent deux lignes, prenez les en entier !)
 
@@ -106,14 +106,14 @@ Méthode 1 (à utiliser si vous avez besoin de Shadowplay, ou d'utiliser les hau
 
 Je discute des avantages et des inconvénients de NVCleanInstall dans cette vidéo (que je vous conseille encore une fois de regarder pour du contexte et des informations supplémentaires) : 
 
-![#f03c15](https://i.imgur.com/Kpeo7Gq.png) [`Optimisation CG Nvidia @11:34`](https://www.youtube.com/watch?v=eydeMfLlIsA&feature=youtu.be&t=694)
+[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">`Optimisation CG Nvidia @11:34`](https://www.youtube.com/watch?v=eydeMfLlIsA&feature=youtu.be&t=694)
 
 Une fois le driver vidéo installé, on aura (enfin) notre résolution normale.
 
 ## Installation des drivers
 L'étape suivante consiste à installer les autres pilotes de votre système. La vidéo explicative est la suivante :
 
-![#f03c15](https://i.imgur.com/Kpeo7Gq.png) [`Bien installer les pilotes de son PC`](https://www.youtube.com/watch?v=LJ1tgPLHmG0)
+[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">`Bien installer les pilotes de son PC`](https://www.youtube.com/watch?v=LJ1tgPLHmG0)
 
 Le résumé, c'est qu'utiliser des outils comme driverscloud, driverbooster, touslesdrivers, etc, c'est pas la meilleure façon d'installer vos drivers, et ça peut créer des soucis. Le site de la carte mère, et le site de la carte graphique sont les meilleurs endroits. Pour plus de détails, je vous renvoie à la vidéo.
 
@@ -126,7 +126,7 @@ Il suffit d'aller dans les options de windows, cliquer sur windows update, et fa
 
 Cette étape consiste simplement à se promener dans tous les paramètres de Windows, et lire et décocher ce qui ne vous semble pas utile. Pour vous aider, je peux vous proposer la vidéo suivante, qui va vous expliquer la majorité des paramètres que vous trouverez : 
 
-![#f03c15](https://i.imgur.com/Kpeo7Gq.png) [`Paramètres Windows`](https://www.youtube.com/watch?v=DP0e0xTk0Ck)
+[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">`Paramètres Windows`](https://www.youtube.com/watch?v=DP0e0xTk0Ck)
 
 ## W10Privacy
 
@@ -134,13 +134,13 @@ W10privacy est le logiciel que j'utilise pour régler certains paramètres pas d
 Vidéo explicative ici (conseillée) : 
 
 
-![#f03c15](https://i.imgur.com/Kpeo7Gq.png) [`W10Privacy (et autres logiciels de "vie privée")`](https://www.youtube.com/watch?v=oPUJThkVmXI)
+[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">`W10Privacy (et autres logiciels de "vie privée")`](https://www.youtube.com/watch?v=oPUJThkVmXI)
 
 ## Réglages du panneau Nvidia
 
 Ensuite, je vous propose de faire un tour du panneau Nvidia, et d'activer et de désactiver certaines choses. Si vous avez une carte AMD, je peux pas vous aider, et je crois pas connaître de bon tuto pour. Profitez-en pour faire des expériences.
 
-![#f03c15](https://i.imgur.com/Kpeo7Gq.png) [`Paramètres du panneau Nvidia`](https://youtu.be/Z9pkHJGm004)
+[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">`Paramètres du panneau Nvidia`](https://youtu.be/Z9pkHJGm004)
 
 ## MSI Afterburner
 Msi Afterburner est un logiciel très léger et puissant, qui va vous permettre de :
@@ -148,7 +148,7 @@ Msi Afterburner est un logiciel très léger et puissant, qui va vous permettre 
 - regarder en temps réel l'utilisation de votre CG, sa température, ainsi que l'utilisation et températures de votre processeur, et du reste du PC.
 - overclock votre CG (sujet que je traiterai pas, car trop long et source de potentielle instabilité)
 
-![#f03c15](https://i.imgur.com/Kpeo7Gq.png) [`Utiliser MSI Afterburner`](https://youtu.be/eydeMfLlIsA?t=1)
+[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">`Utiliser MSI Afterburner`](https://youtu.be/eydeMfLlIsA?t=1)
 
 ## Mode MSI
 
@@ -157,7 +157,7 @@ Première note avant de continuer : Si vous avez une carte graphique AMD, le mod
 
 L'explication et l'utilité du mode MSI se trouvent dans la vidéo suivante : 
 
-![#f03c15](https://i.imgur.com/Kpeo7Gq.png) [`MSI Mode`](https://youtu.be/eydeMfLlIsA?t=502)
+[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">`MSI Mode`](https://youtu.be/eydeMfLlIsA?t=502)
 
 Je vous rajoute ici le lien vers msi_util v3 : [http://www.mediafire.com/file/ewpy1p0rr132thk/MSI_util_v3.zip/file](http://www.mediafire.com/file/ewpy1p0rr132thk/MSI_util_v3.zip/file)
 
