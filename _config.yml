@@ -3,3 +3,4 @@ plugins:
   - jekyll-include-cache
 
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", , "dirt", "neon", "mint", "plum", "sunrise"
