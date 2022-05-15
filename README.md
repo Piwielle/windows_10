@@ -47,7 +47,7 @@ C'est par là : [`https://github.com/Piwielle/Backup-logiciels/blob/main/README.
 
 Pour installer Windows, je vous propose la vidéo de Topachat, qui est complète et couvre bien le sujet. 
 
-![#f03c15](https://i.imgur.com/cRUau5i.png =250x250) [`[TUTO] Installer Windows 10 & Tes Drivers - TopAchat [FR]`](https://www.youtube.com/watch?v=uHOP4UbEGug)
+<img src="https://i.imgur.com/cRUau5i.png" width="100" height="100"> [`[TUTO] Installer Windows 10 & Tes Drivers - TopAchat [FR]`](https://www.youtube.com/watch?v=uHOP4UbEGug)
 
 La seule chose que j'ajouterai, c'est que je vous suggère de **débrancher le câble Ethernet (ou la carte wifi) pendant l'installation de Windows.** Windows par défaut installe des drivers pour votre matériel, pendant l'installation. Je considère ça comme pas idéal, parce que la première chose qu'on va faire après l'install, c'est de mettre à jour nos drivers, alors autant s'épargner l'installation d'anciennes versions de drivers par Windows.
 On pourra rebrancher le câble ethernet uniquement **après avoir désactivé l'installation automatique des drivers**.
