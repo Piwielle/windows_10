@@ -8,7 +8,7 @@ plugins:
   - jekyll-include-cache
  
  remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
- jekyll_theme_basically_basic_skin: "night"
+ #jekyll_theme_basically_basic_skin: "night"
  
 
 #remote_theme: "mmistakes/minimal-mistakes@4.24.0"
