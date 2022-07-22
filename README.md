@@ -11,7 +11,7 @@ Voici ce que je vous conseille sur une nouvelle installation de windows. Ce sont
 # Windows 11 : 
 Windows 11 est sorti. A mon avis, le bon moment pour l'installer ça sera la version 22H2. Elle est en bêta et devrait sortir vers cet été. Ce guide deviendra un guide pour Windows 11 à ce moment là. Une version pour Windows 10 restera quand même archivée quelque part, mais ne sera plus mise à jour.
 Ceci dit, j'ai personnellement installé Windows 11, pour le tester et préparer un futur guide d'installation. Je maintiens à jour un genre de mini guide, avec les paramètres de W11 que je change/test. Si jamais vous aimez bien expérimenter, vous pouvez potentiellement être intéressés par ce mini guide en beta. C'est par là : 
-[`GitHub : Configurer Windows 11`](https://github.com/Piwielle/windows_11/blob/main/README.md)
+[`GitHub : Windows 11`](https://github.com/Piwielle/windows_11)
 
 ## Table des matières
 
