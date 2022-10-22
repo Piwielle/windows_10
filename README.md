@@ -9,7 +9,7 @@ Les simples tweaks que je vais détailler ici vont garantir un pc qui sera sain,
 
 Si vous souhaitez gratter le 1% restant, faites le, mais sachez que c'est à vos risques et périls, que vous allez forcément à un moment faire une connerie et devoir réinstaller windows, et le tout pour un gain de performances qui sera très très faible (globalement 100% invisible).
 
-Voici ce que je vous conseille sur une nouvelle installation de windows. Ce sont des tweaks qui sont sans dangers pour le pc, que ce soit niveau hardware ou software. Si vous avez une question particulière durant une des étapes, n'hésitez pas à demander sur [`Discord`](https://discord.gg/informatique) !
+Voici ce que je vous conseille sur une nouvelle installation de windows. Ce sont des tweaks qui sont sans dangers pour le pc, que ce soit niveau hardware ou software. Si vous avez une question particulière durant une des étapes, n'hésitez pas à demander sur [Discord](https://discord.gg/informatique) !
 
 ## Passer à Windows 11 : 
 Windows 11 est sorti. A mon avis, l'OS est maintenant assez mature pour que ça soit une bonne idée de passer de Windows 10 à 11, si votre PC est compatible.
@@ -52,7 +52,7 @@ C'est par là : [https://github.com/Piwielle/Backup-logiciels/blob/main/README.m
 
 Pour installer Windows, je vous propose la vidéo de Topachat, qui est complète et couvre bien le sujet. 
 
- [<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">`[TUTO] Installer Windows 10 & Tes Drivers - TopAchat [FR]`](https://www.youtube.com/watch?v=uHOP4UbEGug)
+ [<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">[TUTO] Installer Windows 10 & Tes Drivers - TopAchat [FR]](https://www.youtube.com/watch?v=uHOP4UbEGug)
 
 La seule chose que j'ajouterai, c'est que je vous suggère de **débrancher le câble Ethernet (ou la carte wifi) pendant l'installation de Windows.** Windows par défaut installe des drivers pour votre matériel, pendant l'installation. Je considère ça comme pas idéal, parce que la première chose qu'on va faire après l'install, c'est de mettre à jour nos drivers, alors autant s'épargner l'installation d'anciennes versions de drivers par Windows.
 On pourra rebrancher le câble ethernet uniquement **après avoir désactivé l'installation automatique des drivers**.
