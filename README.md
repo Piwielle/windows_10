@@ -62,7 +62,7 @@ On pourra rebrancher le câble ethernet uniquement **après avoir désactivé l'
 Une fois que Windows sera installé, on se retrouve sur le bureau (avec une résolution très faible, ce qui est normal, la résolution normale viendra quand on aura installé les drivers de la carte graphique).
 La première chose qu'on va faire, c'est désactiver l'installation automatique des drivers de Windows. Pour ce faire, je vous propose de suivre la vidéo suivante : 
 
-[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">`Désactiver l'installation automatique des drivers de Windows Update`](https://www.youtube.com/watch?v=IMmNS6yAK4g)
+[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">Désactiver l'installation automatique des drivers de Windows Update](https://www.youtube.com/watch?v=IMmNS6yAK4g)
 
 Si vous n'avez pas envie de regarder la vidéo, la commande à rentrer dans CMD (en admin) est la suivante (ceci dit, je vous conseille quand même la vidéo, qui vous donnera plus d'explications, et de contexte)
 
@@ -75,9 +75,9 @@ Reboot le PC maintenant vous permettra d'avoir accès à internet, et donc à ce
 
 Tant qu'on est à faire des changements dans regedit, je vous propose quelques petits tweaks basiques, qui vont légèrement améliorer les performances de votre PC, mais sans aucun problème de compatibilité, ou risque pour votre PC. La vidéo qui vous donnera des explications et du contexte est la suivante (recommandée).
 
-[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">`Quelques tweaks regedit (basiques)`](https://www.youtube.com/watch?v=X4AVdnHFn_E)
+[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">Quelques tweaks regedit (basiques)](https://www.youtube.com/watch?v=X4AVdnHFn_E)
 
-Et la liste des tweaks proposés (à rentrer dans CMD en admin, encore une fois, et attention, certaines des commandes prennent deux lignes, prenez les en entier !)
+Et la liste des tweaks proposés (à rentrer dans CMD en admin, encore une fois, et **attention, certaines des commandes sont sur deux lignes, prenez les en entier** !)
 
 `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v AllowCortana /t REG_DWORD /d 00000000 /f`
 
@@ -103,22 +103,22 @@ Et la liste des tweaks proposés (à rentrer dans CMD en admin, encore une fois,
 On va maintenant installer le driver vidéo de votre carte graphique. Pour ça, plusieurs méthodes selon vos besoins : 
 
 **Carte AMD :**
-Le pilote à télécharger sera disponible sur [`https://www.amd.com/fr/support`](https://www.amd.com/fr/support). Il suffit de choisir la bonne CG, de le télécharger, et de l'installer.
+Le pilote à télécharger sera disponible sur [https://www.amd.com/fr/support](https://www.amd.com/fr/support). Il suffit de choisir la bonne CG, de le télécharger, et de l'installer.
 
 **Carte NVIDIA :**
-Méthode 1 (à utiliser si vous avez besoin de Shadowplay, ou d'utiliser les hauts parleurs de votre écran, ou de Geforce experience, etc) : Le pilote à télécharger sera disponible sur [`https://www.nvidia.fr/Download/Find.aspx?lang=fr`](https://www.nvidia.fr/Download/Find.aspx?lang=fr) (sélectionner la version **DCH** -> faire la recherche -> télécharger le driver **Game Ready** le plus récent)
-- Méthode 2 (à utiliser si vous souhaitez une version "lite" des drivers, qui n'a pas geforce experience, shadowplay, etc) : utiliser  [`NVCleanInstall`](https://www.techpowerup.com/download/techpowerup-nvcleanstall/) pour installer votre driver.
+Méthode 1 (à utiliser si vous avez besoin de Shadowplay, ou d'utiliser les hauts parleurs de votre écran, ou de Geforce experience, etc) : Le pilote à télécharger sera disponible sur [https://www.nvidia.fr/Download/Find.aspx?lang=fr](https://www.nvidia.fr/Download/Find.aspx?lang=fr) (sélectionner la version **DCH** -> faire la recherche -> télécharger le driver **Game Ready** le plus récent)
+- Méthode 2 (à utiliser si vous souhaitez une version "lite" des drivers, qui n'a pas geforce experience, shadowplay, etc) : utiliser  [NVCleanInstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/) pour installer votre driver.
 
 Je discute des avantages et des inconvénients de NVCleanInstall dans cette vidéo (que je vous conseille encore une fois de regarder pour du contexte et des informations supplémentaires) : 
 
-[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">`Optimisation CG Nvidia @11:34`](https://www.youtube.com/watch?v=eydeMfLlIsA&feature=youtu.be&t=694)
+[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">Optimisation CG Nvidia @11:34](https://www.youtube.com/watch?v=eydeMfLlIsA&feature=youtu.be&t=694)
 
 Une fois le driver vidéo installé, on aura (enfin) notre résolution normale.
 
 ## Installation des drivers
 L'étape suivante consiste à installer les autres pilotes de votre système. La vidéo explicative est la suivante :
 
-[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">`Bien installer les pilotes de son PC`](https://www.youtube.com/watch?v=LJ1tgPLHmG0)
+[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">Bien installer les pilotes de son PC](https://www.youtube.com/watch?v=LJ1tgPLHmG0)
 
 Le résumé, c'est qu'utiliser des outils comme driverscloud, driverbooster, touslesdrivers, etc, c'est pas la meilleure façon d'installer vos drivers, et ça peut créer des soucis. Le site de la carte mère, et le site de la carte graphique sont les meilleurs endroits. Pour plus de détails, je vous renvoie à la vidéo.
 
@@ -131,7 +131,7 @@ Il suffit d'aller dans les options de windows, cliquer sur windows update, et fa
 
 Cette étape consiste simplement à se promener dans tous les paramètres de Windows, et lire et décocher ce qui ne vous semble pas utile. Pour vous aider, je peux vous proposer la vidéo suivante, qui va vous expliquer la majorité des paramètres que vous trouverez : 
 
-[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">`Paramètres Windows`](https://www.youtube.com/watch?v=DP0e0xTk0Ck)
+[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">Paramètres Windows](https://www.youtube.com/watch?v=DP0e0xTk0Ck)
 
 ## W10Privacy
 
@@ -139,30 +139,31 @@ W10privacy est le logiciel que j'utilise pour régler certains paramètres pas d
 Vidéo explicative ici (conseillée) : 
 
 
-[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">`W10Privacy (et autres logiciels de "vie privée")`](https://www.youtube.com/watch?v=oPUJThkVmXI)
+[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">W10Privacy (et autres logiciels de "vie privée")](https://www.youtube.com/watch?v=oPUJThkVmXI)
 
 ## Réglages du panneau Nvidia
 
 Ensuite, je vous propose de faire un tour du panneau Nvidia, et d'activer et de désactiver certaines choses. Si vous avez une carte AMD, je peux pas vous aider, et je crois pas connaître de bon tuto pour. Profitez-en pour faire des expériences.
 
-[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">`Paramètres du panneau Nvidia`](https://youtu.be/Z9pkHJGm004)
+[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">Paramètres du panneau Nvidia](https://youtu.be/Z9pkHJGm004)
 
 ## MSI Afterburner
 Msi Afterburner est un logiciel très léger et puissant, qui va vous permettre de :
-- gérer la vitesse des ventilos de votre CG, pour améliorer ses performances et/ou réduire son bruit
-- regarder en temps réel l'utilisation de votre CG, sa température, ainsi que l'utilisation et températures de votre processeur, et du reste du PC.
-- overclock votre CG (sujet que je traiterai pas, car trop long et source de potentielle instabilité)
+- Gérer la vitesse des ventilos de votre CG, pour améliorer ses performances et/ou réduire son bruit.
+- Regarder en temps réel l'utilisation de votre CG, sa température, ainsi que l'utilisation et températures de votre processeur, et du reste du PC.
+- Overclock votre CG (sujet que je traiterai pas, car trop long et source d'instabilités).
 
-[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">`Utiliser MSI Afterburner`](https://youtu.be/eydeMfLlIsA?t=1)
+Si une de ces fonctionnalités vous intéresse, vous pouvez l'installer. Sinon, c'est pas la peine.
+
+[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">Utiliser MSI Afterburner](https://youtu.be/eydeMfLlIsA?t=1)
 
 ## Mode MSI
 
 Première note avant de continuer : Si vous avez une carte graphique AMD, le mode MSI est activé automatiquement à l'installation des pilotes, et vous n'avez rien à faire !
 
-
 L'explication et l'utilité du mode MSI se trouvent dans la vidéo suivante : 
 
-[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">`MSI Mode`](https://youtu.be/eydeMfLlIsA?t=502)
+[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">MSI Mode](https://youtu.be/eydeMfLlIsA?t=502)
 
 Je vous rajoute ici le lien vers msi_util v3 : [http://www.mediafire.com/file/ewpy1p0rr132thk/MSI_util_v3.zip/file](http://www.mediafire.com/file/ewpy1p0rr132thk/MSI_util_v3.zip/file)
 
@@ -174,10 +175,12 @@ Un des réglages les plus importants que vous pouvez faire à votre système, c'
 
 
 /!\ Le mode de gestion d'alimentation le plus optimal pour les performances dépend de votre CPU.
-- CPU Intel : Les modes de gestion "hautes performances" ou "performances optimales" sont les meilleurs.
-
+- CPU Intel pré 12XXX: Les modes de gestion "hautes performances" ou "performances optimales" sont les meilleurs.
+- CPU Intel 12XXX et plus récents : Le mode de gestion "hautes performances" inclus dans Windows est le meilleur.
 - CPU AMD Ryzen 3XXX : Le mode de gestion "Ryzen balanced" est le meilleur mode. (il s'installe quand vous installez les pilotes de chipset)
-- CPU AMD Ryzen 5XXX : le mode de gestion "Utilisation normale" est le meilleur mode (vous pouvez bouger le slider dans Paramètres -> Système -> Alimentation pour un léger gain).
+- CPU AMD Ryzen 5XXX et plus récents: le mode de gestion "Utilisation normale" est le meilleur mode (vous pouvez bouger le slider dans Paramètres -> Système -> Alimentation pour un léger gain).
+
+N'utilisez pas le mode "Performances optimales" sur un CPU récents (AMD 3XXX et plus récents, et Intel 12XXX et plus récents). Ces CPU ont des architectures particulières qui sont prises en compte dans les modes de gestion d'alimentation de Windows, mais pas dans le mode "Performances optimales" qui date de 2017.
 
 ## Réactivation des drivers automatiques
 L'avant dernière étape consiste à réactiver les drivers automatique installés par Windows. C'est inutile quand on installe windows, parce qu'on va de toute façon installer nos propres drivers juste après, mais une fois que tout est fait, je vous conseille de les réactiver.
@@ -189,8 +192,8 @@ Dans certains cas (l'ancien adaptateur sans fil de la manette xbox par exemple),
 `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\DriverSearching" /v SearchOrderConfig /t REG_DWORD /d 00000001 /f`
 
 ## Installation des bibliothèques C++
-Pour terminer, on va installer les bibliothèques C++. Ce sont des bibliothèques qui sont utilisées par énormément d'applications, qui refuseront de se lancer tant que vous ne les avez pas installé (teamspeak, par exemple, et énormément de jeux). Les erreurs "MSVCP100.dll" par exemple, et beaucoup d'autres, viennent de là.
-Afin de les installer facilement, on va utiliser un pack qui les regroupe et les installe pour nous : [`https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/`](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
+Pour terminer, on va installer les bibliothèques C++. Ce sont des bibliothèques qui sont utilisées par énormément d'applications, qui refuseront de se lancer tant que vous ne les avez pas installé (teamspeak par exemple et énormément de jeux). Les erreurs "MSVCP100.dll" et beaucoup d'autres viennent de là.
+Afin de les installer facilement, on va utiliser un pack qui les regroupe et les installe pour nous : [https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
 - Allez sur le lien ci dessus, puis cliquer sur le bouton bleu à gauche de la page marqué "DOWNLOAD"
 - Sur la page qui s'ouvre, cliquez sur n'importe quel drapeau pour lancer le téléchargement.
 - Vous avez téléchargé une archive. Utilisez winRAR, ou 7-zip, ou le gestionnaire d'archive de windows pour extraire cette archive (clic droit -> extraire).
