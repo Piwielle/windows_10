@@ -175,9 +175,9 @@ Un des réglages les plus importants que vous pouvez faire à votre système, c'
 
 
 /!\ Le mode de gestion d'alimentation le plus optimal pour les performances dépend de votre CPU.
-- *CPU Intel pré 12XXX*: Les modes de gestion "**Hautes performances**" ou "**Performances optimales**" sont les meilleurs.
+- *CPU Intel 11XXX et plus anciens*: Les modes de gestion "**Hautes performances**" ou "**Performances optimales**" sont les meilleurs.
 - *CPU Intel 12XXX et plus récents* : Le mode de gestion "**Hautes performances**" inclus dans Windows est le meilleur.
-- *CPU AMD Ryzen 3XXX* : Le mode de gestion "**Ryzen balanced**" est le meilleur mode. (il s'installe quand vous installez les pilotes de chipset)
+- *CPU AMD Ryzen 3XXX et plus anciens* : Le mode de gestion "**Ryzen balanced**" est le meilleur mode. (il s'installe quand vous installez les pilotes de chipset)
 - *CPU AMD Ryzen 5XXX et plus récents* : Le mode de gestion "**Utilisation normale**" est le meilleur mode (vous pouvez bouger le slider dans Paramètres -> Système -> Alimentation pour un léger gain).
 
 N'utilisez pas le mode "Performances optimales" sur un CPU récents (AMD 3XXX et plus récents, et Intel 12XXX et plus récents). Ces CPU ont des architectures particulières qui sont prises en compte dans les modes de gestion d'alimentation de Windows, mais pas dans le mode "Performances optimales" qui date de 2017.
