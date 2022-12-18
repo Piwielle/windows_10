@@ -22,7 +22,7 @@ Ce guide reste tout de même valable pour Windows 10.
 
  - [**Sauvegarder ses données**](#sauvegarder-ses-donnees)
  - [**Installation de Windows**](#installation-de-windows)
- - [**Tweaks regedit**](#désactivation-des-drivers-automatiques--tweaks-regedit)
+ - [**Tweaks regedit**](#tweaks-regedit)
  - [**Installation du driver vidéo**](#installation-du-driver-vidéo)
  - [**Installation des drivers**](#installation-des-drivers)
  - [**Mises à jour de Windows**](#mises-à-jour-de-windows)
@@ -55,7 +55,7 @@ Pour installer Windows, je vous propose la vidéo de Topachat, qui est complète
 
 La seule chose que j'ajouterai, c'est que je vous suggère de ne pas séparer votre SSD et faire des partitions. Une seule partition devrait parfaitement marcher.
 
-##Tweaks Regedit
+## Tweaks Regedit
 
 Une fois que Windows sera installé, on se retrouve sur le bureau (avec une résolution très faible, ce qui est normal, la résolution normale viendra quand on aura installé les drivers de la carte graphique).
 Je vous propose quelques petits tweaks basiques, qui vont légèrement améliorer les performances de votre PC, mais sans aucun problème de compatibilité, ou risque pour votre PC. La vidéo qui vous donnera des explications et du contexte est la suivante (recommandée).
@@ -174,7 +174,7 @@ Afin de les installer facilement, on va utiliser un pack qui les regroupe et les
 - Une fois l'archive extraite, ouvrez le dossier de l'archive extraite, faites un clic droit sur le fichier "**install_all**", et cliquez sur "**Lancer en tant qu'administrateur**".
 - Attendre la fin des installations, puis redémarrer le PC.
 
-##Les bonnes pratiques
+## Les bonnes pratiques
 
 L'installation de Windows est terminée, mais avant de vous laisser, on va parler des bonnes pratiques et des choses à faire sur le PC pour essayer de le garder propre le plus longtemps possible et éviter les problèmes.
 
