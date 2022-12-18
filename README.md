@@ -1,4 +1,4 @@
-*Dernière mise à jour : 22/10/2022*
+*Dernière mise à jour : 18/12/2022*
 
 # Installer et optimiser Windows 10
 Ce site présente un guide sur comment bien installer ou réinstaller Windows 10 proprement. Il s'agit d'un guide complet, que vous devriez pouvoir suivre sans souci.
@@ -22,7 +22,6 @@ Ce guide reste tout de même valable pour Windows 10.
 
  - [**Sauvegarder ses données**](#sauvegarder-ses-donnees)
  - [**Installation de Windows**](#installation-de-windows)
- - [**Désactivation des drivers automatiques**](#désactivation-des-drivers-automatiques--tweaks-regedit)
  - [**Tweaks regedit**](#désactivation-des-drivers-automatiques--tweaks-regedit)
  - [**Installation du driver vidéo**](#installation-du-driver-vidéo)
  - [**Installation des drivers**](#installation-des-drivers)
@@ -33,8 +32,8 @@ Ce guide reste tout de même valable pour Windows 10.
  - [**MSI Afterburner**](#msi-afterburner)
  - [**Mode MSI**](#mode-msi)
  - [**Mode de gestion d'alimentation**](#mode-de-gestion-dalimentation)
- - [**Réactivation des drivers automatiques**](#réactivation-des-drivers-automatiques)
  - [**Installation des bibliothèques C++**](#installation-des-bibliothèques-c)
+ - [**Les bonnes pratiques**](#les-bonnes-pratiques)
  
  
 ## Sauvegarder ses données
@@ -54,26 +53,12 @@ Pour installer Windows, je vous propose la vidéo de Topachat, qui est complète
 
  [<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">[TUTO] Installer Windows 10 & Tes Drivers - TopAchat [FR]](https://www.youtube.com/watch?v=uHOP4UbEGug)
 
-La seule chose que j'ajouterai, c'est que je vous suggère de **débrancher le câble Ethernet (ou la carte wifi) pendant l'installation de Windows.** Windows par défaut installe des drivers pour votre matériel, pendant l'installation. Je considère ça comme pas idéal, parce que la première chose qu'on va faire après l'install, c'est de mettre à jour nos drivers, alors autant s'épargner l'installation d'anciennes versions de drivers par Windows.
-On pourra rebrancher le câble ethernet uniquement **après avoir désactivé l'installation automatique des drivers**.
+La seule chose que j'ajouterai, c'est que je vous suggère de ne pas séparer votre SSD et faire des partitions. Une seule partition devrait parfaitement marcher.
 
-## Désactivation des drivers automatiques & Tweaks Regedit
+##Tweaks Regedit
 
 Une fois que Windows sera installé, on se retrouve sur le bureau (avec une résolution très faible, ce qui est normal, la résolution normale viendra quand on aura installé les drivers de la carte graphique).
-La première chose qu'on va faire, c'est désactiver l'installation automatique des drivers de Windows. Pour ce faire, je vous propose de suivre la vidéo suivante : 
-
-[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">Désactiver l'installation automatique des drivers de Windows Update](https://www.youtube.com/watch?v=IMmNS6yAK4g)
-
-Si vous n'avez pas envie de regarder la vidéo, la commande à rentrer dans CMD (en admin) est la suivante (ceci dit, je vous conseille quand même la vidéo, qui vous donnera plus d'explications, et de contexte)
-
-`REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\DriverSearching" /v SearchOrderConfig /t REG_DWORD /d 00000000 /f`
-
-Une fois les drivers de Windows désactivés, vous devez impérativement **redémarrer le PC**. Une fois que c'est fait, vous pouvez **rebrancher internet**
-
-Reboot le PC maintenant vous permettra d'avoir accès à internet, et donc à ce guide sur PC.
-
-
-Tant qu'on est à faire des changements dans regedit, je vous propose quelques petits tweaks basiques, qui vont légèrement améliorer les performances de votre PC, mais sans aucun problème de compatibilité, ou risque pour votre PC. La vidéo qui vous donnera des explications et du contexte est la suivante (recommandée).
+Je vous propose quelques petits tweaks basiques, qui vont légèrement améliorer les performances de votre PC, mais sans aucun problème de compatibilité, ou risque pour votre PC. La vidéo qui vous donnera des explications et du contexte est la suivante (recommandée).
 
 [<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">Quelques tweaks regedit (basiques)](https://www.youtube.com/watch?v=X4AVdnHFn_E)
 
@@ -94,8 +79,6 @@ Et la liste des tweaks proposés (à rentrer dans CMD en admin, encore une fois,
 `powercfg -h off`
 
 `fsutil behavior set DisableDeleteNotify 0`
-
-
 
 
 
@@ -182,15 +165,6 @@ Un des réglages les plus importants que vous pouvez faire à votre système, c'
 
 N'utilisez pas le mode "Performances optimales" sur un CPU récents (AMD 3XXX et plus récents, et Intel 12XXX et plus récents). Ces CPU ont des architectures particulières qui sont prises en compte dans les modes de gestion d'alimentation de Windows, mais pas dans le mode "Performances optimales" qui date de 2017.
 
-## Réactivation des drivers automatiques
-L'avant dernière étape consiste à réactiver les drivers automatique installés par Windows. C'est inutile quand on installe windows, parce qu'on va de toute façon installer nos propres drivers juste après, mais une fois que tout est fait, je vous conseille de les réactiver.
-
-Ils sont très utiles pour laisser Windows détecter et installer automatiquement des drivers lorsque vous branchez quelque chose de nouveau au PC (comme une imprimante, une manette, un disque dur externe, etc).
-
-Dans certains cas (l'ancien adaptateur sans fil de la manette xbox par exemple), sans les drivers automatiques de windows, vous allez passer des heures à chercher le bon fichier .cab pour l'installer, alors que ça sera fera automatiquement en 2 secondes avec. Pour les réactiver, entrez simplement dans CMD en admin la commande suivante : 
-
-`REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\DriverSearching" /v SearchOrderConfig /t REG_DWORD /d 00000001 /f`
-
 ## Installation des bibliothèques C++
 Pour terminer, on va installer les bibliothèques C++. Ce sont des bibliothèques qui sont utilisées par énormément d'applications, qui refuseront de se lancer tant que vous ne les avez pas installé (teamspeak par exemple et énormément de jeux). Les erreurs "MSVCP100.dll" et beaucoup d'autres viennent de là.
 Afin de les installer facilement, on va utiliser un pack qui les regroupe et les installe pour nous : [https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
@@ -200,4 +174,15 @@ Afin de les installer facilement, on va utiliser un pack qui les regroupe et les
 - Une fois l'archive extraite, ouvrez le dossier de l'archive extraite, faites un clic droit sur le fichier "**install_all**", et cliquez sur "**Lancer en tant qu'administrateur**".
 - Attendre la fin des installations, puis redémarrer le PC.
 
-Bravo, c'est fini !
+##Les bonnes pratiques
+
+L'installation de Windows est terminée, mais avant de vous laisser, on va parler des bonnes pratiques et des choses à faire sur le PC pour essayer de le garder propre le plus longtemps possible et éviter les problèmes.
+
+- Eviter les optimisations. Malgré les promesses de gain de performances, d'input lag ou de stabilité, dans 99% des cas, il s'agit de bêtises qui vont vous flinguer Windows complètement, ou vous faire perdre des fonctionnalités pour ne rien gagner. Si ça vous amuse de bidouiller et que ça vous dérange pas de réinstaller Windows tous les mois, vous pouvez tenter l'aventure. Sauvegardez vos données, et soyez prêts à perdre du temps.
+- Eviter les logiciels de nettoyage. Les Ccleaner, Iobit SystemCare, Glary utilities, DriversCloud, DriverBooster, etc etc, c'est des saloperies. Ils vendent du vent et ne vont rien faire de bien sur votre PC. Pour nettoyer les fichiers, le nettoyage de disque intégré à Windows est efficace et moins dangereux que ces outils.
+- Garder son PC à jour. Ca inclut Windows, les applications, les jeux et tout ce qui est sur le PC. N'allez pas forcément installer toutes les mises à jour de tout dès le premier jour, mais une fois qu'une mise à jour de quelque chose a une semaine, vous pouvez l'installer sans problème.
+- Essayez d'installer le moins d'applications possible. Pour garder un PC propre, installer une application seulement si vous en avez vraiment besoin. Dans la mesure du possible, utilisez les versions portables des applications, qui peuvent laisser moins de bordel sur le PC.
+- Eviter les cracks. Essayez d'utiliser des alternatives gratuites, c'est souvent possible et bien moins dangereux. Le site [AlternativeTo](https://alternativeto.net/) peut vous aider à trouver des alternatives à un logiciel.
+- Installez [uBlock Origin](https://ublockorigin.com/). Quel que soit votre navigateur, c'est essentiel d'avoir un bloqueur de pub efficace pour être tranquille sur internet. uBlock Origin est de loin le meilleur bloqueur de pub, et si vous en utilisez un autre, il est temps de le désinstaller et de changer.
+
+Cette vidéo parle de la même chose, si vous préferez la version orale : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 9 - Les bonnes pratiques](https://youtu.be/SEdYm2gLgYk)
