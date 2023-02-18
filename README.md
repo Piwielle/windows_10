@@ -1,4 +1,4 @@
-*Dernière mise à jour : 18/12/2022*
+*Dernière mise à jour : 18/02/2023*
 
 # Installer et optimiser Windows 10
 Ce site présente un guide sur comment bien installer ou réinstaller Windows 10 proprement. Il s'agit d'un guide complet, que vous devriez pouvoir suivre sans souci.
@@ -27,7 +27,6 @@ Ce guide reste tout de même valable pour Windows 10.
  - [**Installation des drivers**](#installation-des-drivers)
  - [**Mises à jour de Windows**](#mises-à-jour-de-windows)
  - [**Paramètres de Windows**](#paramètres-de-windows)
- - [**W10Privacy**](#w10privacy)
  - [**Réglages du panneau Nvidia**](#réglages-du-panneau-nvidia)
  - [**MSI Afterburner**](#msi-afterburner)
  - [**Mode MSI**](#mode-msi)
@@ -116,13 +115,6 @@ Cette étape consiste simplement à se promener dans tous les paramètres de Win
 
 [<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">Paramètres Windows](https://www.youtube.com/watch?v=DP0e0xTk0Ck)
 
-## W10Privacy
-
-W10privacy est le logiciel que j'utilise pour régler certains paramètres pas directement accessibles dans les réglages de windows. J'ai choisi celui ci pour la clarté des explications qu'il propose, et la possibilité de simplement revenir en arrière sur un changement.
-Vidéo explicative ici (conseillée) : 
-
-
-[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">W10Privacy (et autres logiciels de "vie privée")](https://www.youtube.com/watch?v=oPUJThkVmXI)
 
 ## Réglages du panneau Nvidia
 
