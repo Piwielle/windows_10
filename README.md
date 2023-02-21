@@ -155,7 +155,7 @@ Un des réglages les plus importants que vous pouvez faire à votre système, c'
 - *CPU AMD Ryzen 3XXX et plus anciens* : Le mode de gestion "**Ryzen balanced**" est le meilleur mode. (il s'installe quand vous installez les pilotes de chipset)
 - *CPU AMD Ryzen 5XXX et plus récents* : Le mode de gestion "**Utilisation normale**" est le meilleur mode (vous pouvez bouger le slider dans Paramètres -> Système -> Alimentation pour un léger gain).
 
-N'utilisez pas le mode "Performances optimales" sur un CPU récents (AMD 3XXX et plus récents, et Intel 12XXX et plus récents). Ces CPU ont des architectures particulières qui sont prises en compte dans les modes de gestion d'alimentation de Windows, mais pas dans le mode "Performances optimales" qui date de 2017.
+N'utilisez pas le mode "Performances optimales" sur un CPU récents (AMD 3XXX et plus récents, et Intel 12XXX et plus récents). Le mode de gestion d'alim "Performances optimales" date de 2017, et n'est pas optimal pour les architectures hybrides des processeurs récents.
 
 ## Installation des bibliothèques C++
 Pour terminer, on va installer les bibliothèques C++. Ce sont des bibliothèques qui sont utilisées par énormément d'applications, qui refuseront de se lancer tant que vous ne les avez pas installé (teamspeak par exemple et énormément de jeux). Les erreurs "MSVCP100.dll" et beaucoup d'autres viennent de là.
