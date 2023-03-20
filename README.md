@@ -14,7 +14,7 @@ Voici ce que je vous conseille sur une nouvelle installation de windows. Ce sont
 ## Passer à Windows 11 : 
 Windows 11 est sorti. A mon avis, l'OS est maintenant assez mature pour que ça soit une bonne idée de passer de Windows 10 à 11, si votre PC est compatible.
 
-Un guide d'installation de Windows 11 est disponible, pour les personnes intéressées, par ici : https://installerwindows.fr/ 
+Un guide d'installation de Windows 11 est disponible, pour les personnes intéressées, par ici :  [https://installerwindows.fr/](https://installerwindows.fr/)
 
 Ce guide reste tout de même valable pour Windows 10.
 
