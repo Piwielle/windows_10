@@ -3,6 +3,8 @@
 # Installer et optimiser Windows 10
 Ce site présente un guide sur comment bien installer ou réinstaller Windows 10 proprement. Il s'agit d'un guide complet, que vous devriez pouvoir suivre sans souci.
 
+**Retrouvez ce guide avec son formatage adapté sur https://installerwindows.fr/guide/windows-10**
+
 ## Pourquoi ce guide.
 Il existe énormément de tweaks, optimisations, tutoriels, scripts et logiciels sur internet qui vont vous promettre de doubler vos FPS, réduire votre latence, stabiliser vos FPS, et je ne sais quoi d'autre. La majorité de ces tweaks sont faux, plus à jour, n'améliorent rien, et risquent de vous forcer à réinstaller windows en cas d'erreur (et des fois même si vous avez tout suivi correctement), voire même d'endommager votre PC.
 Les simples tweaks que je vais détailler ici vont garantir un pc qui sera sain, et vous aurez fait 99% du chemin concernant l'optimisation de votre PC, sans danger pour le PC, et avec tout qui fonctionnera.
