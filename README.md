@@ -18,24 +18,7 @@ Un guide d'installation de Windows 11 est disponible, pour les personnes intére
 
 Ce guide reste tout de même valable pour Windows 10.
 
-## Table des matières
 
- - [**Sauvegarder ses données**](#sauvegarder-ses-données)
- - [**Création d'une clé USB de Windows**](#création-dune-clé-usb-de-windows)
- - [**Installation de Windows**](#installation-de-windows)
- - [**Tweaks regedit**](#tweaks-regedit)
- - [**Installation du driver vidéo**](#installation-du-driver-vidéo)
- - [**Installation des drivers**](#installation-des-drivers)
- - [**Mises à jour de Windows**](#mises-à-jour-de-windows)
- - [**Paramètres de Windows**](#paramètres-de-windows)
- - [**Réglages du panneau Nvidia**](#réglages-du-panneau-nvidia)
- - [**MSI Afterburner**](#msi-afterburner)
- - [**Mode MSI**](#mode-msi)
- - [**Mode de gestion d'alimentation**](#mode-de-gestion-dalimentation)
- - [**Installation des bibliothèques C++**](#installation-des-bibliothèques-c)
- - [**Les bonnes pratiques**](#les-bonnes-pratiques)
- 
- 
 ## Sauvegarder ses données
 La première chose qu'on va faire pour s'assurer que tout fonctionne au mieux, c'est formater le PC et réinstaller Windows. Mais, en formatant le PC, **toutes les données du disque C: seront effacées**.
 
