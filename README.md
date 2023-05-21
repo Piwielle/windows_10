@@ -42,7 +42,7 @@ La clé va ensuite se créer toute seule. L'opération peut prendre du temps sel
 
 Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 1 - Créer une clé USB d'installation](https://www.youtube.com/watch?v=nidskw_JslQ).
 
-Warning Cette vidéo concerne Windows 11, mais l'opération est identique pour Windows 10, il faut simplement télécharger l'outil pour windows 10 (lien au dessus).
+*Cette vidéo concerne Windows 11, mais l'opération est identique pour Windows 10, il faut simplement télécharger l'outil pour windows 10 (lien au dessus).*
 
 ## Installation de Windows
 
@@ -69,7 +69,7 @@ Ensuite, on passe au réglage des paramètres initiaux avant de pouvoir accéder
 
 Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 2 - Installer Windows](https://youtu.be/5bPSazjZdSA)
 
-> Cette vidéo présente l'installation de Windows 11. Le principe reste cependant quasiment identique pour Windows 10.
+*Cette vidéo présente l'installation de Windows 11. Le principe reste cependant quasiment identique pour Windows 10.*
 
 ## Tweaks Regedit
 
