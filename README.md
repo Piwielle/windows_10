@@ -1,4 +1,4 @@
-*Dernière mise à jour : 18/02/2023*
+*Dernière mise à jour : 21/05/2023*
 
 # Installer et optimiser Windows 10
 Ce site présente un guide sur comment bien installer ou réinstaller Windows 10 proprement. Il s'agit d'un guide complet, que vous devriez pouvoir suivre sans souci.
@@ -20,7 +20,8 @@ Ce guide reste tout de même valable pour Windows 10.
 
 ## Table des matières
 
- - [**Sauvegarder ses données**](#sauvegarder-ses-donnees)
+ - [**Sauvegarder ses données**](#sauvegarder-ses-données)
+ - [**Création d'une clé USB de Windows**](#création-dune-clé-usb-de-windows)
  - [**Installation de Windows**](#installation-de-windows)
  - [**Tweaks regedit**](#tweaks-regedit)
  - [**Installation du driver vidéo**](#installation-du-driver-vidéo)
@@ -43,16 +44,47 @@ Pour vous aider à faire ça de façon efficace, je vous ai préparé un documen
 
 C'est par là : [https://github.com/Piwielle/Backup-logiciels/blob/main/README.md](https://github.com/Piwielle/Backup-logiciels/blob/main/README.md)
  
- 
+## Création d'une clé USB de Windows
+
+La première étape, c'est de créer une clé USB d'installation de Windows, qu'on pourra utiliser pour formater un PC et réinstaller Windows proprement.
+
+Il faut pour ça **une clé USB de 8 Go ou plus** et **accès à un PC sous Windows**.
+
+- Télécharger l'outil de la catégorie "Création d'un support d'installation de Windows 10" sur [le site de Microsoft.](https://www.microsoft.com/fr-fr/software-download/windows10)
+- Lancer l'outil, choisir ses paramètres et sa clé, puis lancer le processus.
+
+La clé va ensuite se créer toute seule. L'opération peut prendre du temps selon la connexion, la clé USB, et le PC.
+
+Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 1 - Créer une clé USB d'installation](https://www.youtube.com/watch?v=nidskw_JslQ).
+
+Warning Cette vidéo concerne Windows 11, mais l'opération est identique pour Windows 10, il faut simplement télécharger l'outil pour windows 10 (lien au dessus).
+
 ## Installation de Windows
 
-**Note:** Je recommande de réinstaller Windows, afin de repartir sur une base saine. Qui sait ce que vous avez installé sur votre PC, quels tweaks (utiles ou non) vous avez pu installer, quels logiciels inutiles ou virus vous pouvez avoir sur votre PC, etc etc. Réinstaller complètement Windows permettra de repartir complètement d'une base saine, et d'assurer des performances et une compatibilité maximale.
+La clé étant créée, on va pouvoir l'utiliser pour formater le PC et installer une version fraîche de Windows.
 
-Pour installer Windows, je vous propose la vidéo de Topachat, qui est complète et couvre bien le sujet. 
+Pour faire ça: 
+- Mettre la clé dans un des ports USB, si sur un PC fixe préférablement directement sur un des ports à l'arrière, directement sur la carte mère.
+- Démarrer le PC, et spammer la touche <kbd>F11</kbd> pendant le démarrage (des fois <kbd>F8</kbd> ou <kbd>F12</kbd>, selon la marque de la carte mère).
+- Choisir la clé USB dans le menu de démarrage qui s'ouvre (en UEFI s'il y en a plusieurs).
+- Se laisser guider par l'installateur de Windows.
 
- [<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">[TUTO] Installer Windows 10 & Tes Drivers - TopAchat [FR]](https://www.youtube.com/watch?v=uHOP4UbEGug)
+> **Warning**
+> 
+> **Attention ! Lors du choix du lecteur sur lequel installer Windows, il faut être très attentif, c'est ici que vous allez formater vos disques. Si vous n'êtes pas très attentifs, vous allez perdre des données que vous vouliez garder !**
 
-La seule chose que j'ajouterai, c'est que je vous suggère de ne pas séparer votre SSD et faire des partitions. Une seule partition devrait parfaitement marcher.
+- Chaque SSD ou disque dur dans le PC correspond à un lecteur sur l'interface.
+- Déterminer sur quel disque (lecteur) l'installation de Windows sera faite (on pourra s'aider de la taille pour les reconnaître).
+- Supprimer toutes les partitions de ce que disque.
+- Sélectionner l'espace non alloué représentant le disque, puis simplement appuyer sur suivant.
+
+On pourra ensuite attendre la copie et l'installation de Windows. Pendant le compte à rebours de 10 secondes avant de redémarrer le PC, pensez à retirer la clé USB du PC. Ca évitera de redémarrer encore sur la clé et de recommencer l'installation en boucle.
+
+Ensuite, on passe au réglage des paramètres initiaux avant de pouvoir accéder à Windows. On peut se laisser guider par l'installateur. Dites non à tout ce qu'il propose.
+
+Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="30" alt="Logo YouTube" class="img-logo-ytb"> 2 - Installer Windows](https://youtu.be/5bPSazjZdSA)
+
+> Cette vidéo présente l'installation de Windows 11. Le principe reste cependant quasiment identique pour Windows 10.
 
 ## Tweaks Regedit
 
