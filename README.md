@@ -76,7 +76,7 @@ Support vidéo : [<img src="https://i.imgur.com/cRUau5i.png" height="20" width="
 Une fois que Windows sera installé, on se retrouve sur le bureau (avec une résolution très faible, ce qui est normal, la résolution normale viendra quand on aura installé les drivers de la carte graphique).
 Je vous propose quelques petits tweaks basiques, qui vont légèrement améliorer les performances de votre PC, mais sans aucun problème de compatibilité, ou risque pour votre PC. La vidéo qui vous donnera des explications et du contexte est la suivante (recommandée).
 
-[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">Quelques tweaks regedit (basiques)](https://www.youtube.com/watch?v=X4AVdnHFn_E)
+[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27"  class="img-logo-ytb">Quelques tweaks regedit (basiques)](https://www.youtube.com/watch?v=X4AVdnHFn_E)
 
 Et la liste des tweaks proposés (à rentrer dans CMD en admin, encore une fois, et **attention, certaines des commandes sont sur deux lignes, prenez les en entier** !)
 
@@ -110,14 +110,14 @@ Méthode 1 (à utiliser si vous avez besoin de Shadowplay, ou d'utiliser les hau
 
 Je discute des avantages et des inconvénients de NVCleanInstall dans cette vidéo (que je vous conseille encore une fois de regarder pour du contexte et des informations supplémentaires) : 
 
-[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">Optimisation CG Nvidia @11:34](https://www.youtube.com/watch?v=eydeMfLlIsA&feature=youtu.be&t=694)
+[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27" class="img-logo-ytb">Optimisation CG Nvidia @11:34](https://www.youtube.com/watch?v=eydeMfLlIsA&feature=youtu.be&t=694)
 
 Une fois le driver vidéo installé, on aura (enfin) notre résolution normale.
 
 ## Installation des drivers
 L'étape suivante consiste à installer les autres pilotes de votre système. La vidéo explicative est la suivante :
 
-[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">Bien installer les pilotes de son PC](https://www.youtube.com/watch?v=LJ1tgPLHmG0)
+[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27" class="img-logo-ytb">Bien installer les pilotes de son PC](https://www.youtube.com/watch?v=LJ1tgPLHmG0)
 
 Le résumé, c'est qu'utiliser des outils comme driverscloud, driverbooster, touslesdrivers, etc, c'est pas la meilleure façon d'installer vos drivers, et ça peut créer des soucis. Le site de la carte mère, et le site de la carte graphique sont les meilleurs endroits. Pour plus de détails, je vous renvoie à la vidéo.
 
@@ -130,14 +130,14 @@ Il suffit d'aller dans les options de windows, cliquer sur windows update, et fa
 
 Cette étape consiste simplement à se promener dans tous les paramètres de Windows, et lire et décocher ce qui ne vous semble pas utile. Pour vous aider, je peux vous proposer la vidéo suivante, qui va vous expliquer la majorité des paramètres que vous trouverez : 
 
-[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">Paramètres Windows](https://www.youtube.com/watch?v=DP0e0xTk0Ck)
+[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27" class="img-logo-ytb">Paramètres Windows](https://www.youtube.com/watch?v=DP0e0xTk0Ck)
 
 
 ## Réglages du panneau Nvidia
 
 Ensuite, je vous propose de faire un tour du panneau Nvidia, et d'activer et de désactiver certaines choses. Si vous avez une carte AMD, je peux pas vous aider, et je crois pas connaître de bon tuto pour. Profitez-en pour faire des expériences.
 
-[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">Paramètres du panneau Nvidia](https://youtu.be/Z9pkHJGm004)
+[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27" class="img-logo-ytb">Paramètres du panneau Nvidia](https://youtu.be/Z9pkHJGm004)
 
 ## MSI Afterburner
 Msi Afterburner est un logiciel très léger et puissant, qui va vous permettre de :
@@ -147,7 +147,7 @@ Msi Afterburner est un logiciel très léger et puissant, qui va vous permettre 
 
 Si une de ces fonctionnalités vous intéresse, vous pouvez l'installer. Sinon, c'est pas la peine.
 
-[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">Utiliser MSI Afterburner](https://youtu.be/eydeMfLlIsA?t=1)
+[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27" class="img-logo-ytb">Utiliser MSI Afterburner](https://youtu.be/eydeMfLlIsA?t=1)
 
 ## Mode MSI
 
@@ -155,7 +155,7 @@ Première note avant de continuer : Si vous avez une carte graphique AMD, le mod
 
 L'explication et l'utilité du mode MSI se trouvent dans la vidéo suivante : 
 
-[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27">MSI Mode](https://youtu.be/eydeMfLlIsA?t=502)
+[<img src="https://i.imgur.com/cRUau5i.png" width="40" height="27" class="img-logo-ytb">MSI Mode](https://youtu.be/eydeMfLlIsA?t=502)
 
 Je vous rajoute ici le lien vers msi_util v3 : [http://www.mediafire.com/file/ewpy1p0rr132thk/MSI_util_v3.zip/file](http://www.mediafire.com/file/ewpy1p0rr132thk/MSI_util_v3.zip/file)
 
